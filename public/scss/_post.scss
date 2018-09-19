@@ -1,0 +1,146 @@
+.list, 
+.single-post {
+
+  .hero__content {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  h1.post-title {
+    font-size: 52px;
+    text-transform: none;
+    letter-spacing: -.5px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    padding: 0 30px;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+
+    @media(min-width: 620px) {
+      font-size: 62px;
+    }
+  }
+}
+
+.single-post {
+
+  .hero {
+    margin-bottom: 3rem;
+
+    @media(min-width: 620px) {
+      margin-bottom: 4rem;
+    }
+  }
+
+  .hero__content {
+    margin-bottom: 0;
+  }
+
+  .hero-image {
+    position: relative;
+  }
+
+  .post-meta {
+      margin: 0 0 3rem;
+      text-align: center;
+  }
+
+  .post-meta__item {
+      position: relative;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      display: inline-block;
+      color: rgba(0, 0, 0, 0.5);
+      margin-right: 30px;
+
+      &:before {
+        content: "/";
+        position: absolute;
+        right: -20px;
+      }
+
+      &:last-child {
+        margin: 0;
+      }
+
+      &:last-child:before {
+        content: none;
+      }
+  }
+
+  .post-content {
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  h2, h3, h4, h5, p, ol, ul, blockquote {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 860px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  p, ol, ul {
+    line-height: 1.5;
+    margin-bottom: 3rem;
+    font-size: 16px;
+
+    @media(min-width: 720px) {
+      margin-bottom: 4rem;
+      font-size: 18px;
+    }
+  }
+
+  ol,
+  ul {
+    padding-left: 50px;
+
+    li {
+      margin-bottom: 8px;
+    }
+  }
+
+  figure {
+    margin: 3rem 0;
+    width: 100%;
+    text-align: center;
+
+    @media(min-width: 720px) {
+      margin: 4rem 0;
+    }
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+  }
+}
+
+.post-footer-navigation {
+    padding: 6rem 0 0;
+    text-align: center;
+
+    &__link {
+      font-size: 1.2rem;
+      color: rgba($bluegray, .6);
+      
+      &:hover {
+        color: rgba($bluegray, 1);
+
+        i {
+          margin-right: 20px;
+        }
+      }
+
+      i {
+        font-size: 80%;
+        margin-right: 15px;
+      }
+    }
+}

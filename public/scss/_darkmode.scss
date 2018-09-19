@@ -1,0 +1,21 @@
+body.dark-mode {
+    background: #292927;
+    color: #fff;
+}
+.dark-mode {
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    ul,
+    ol,
+    blockquote,
+    .post-meta {
+        color: #fff;
+    }
+
+    .header > .social-menu svg path {
+        color: rgba(255,255,255,.5);
+    }
+}
