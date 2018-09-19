@@ -1,0 +1,23 @@
+{{ define "main" }}
+<div class="container">
+    <div class="hero hero--home">
+        <div class="hero__content">
+            <h2>Designer / front-end developer creating captivating interfaces & visuals to help brands grow.</h2>
+        </div>
+    </div>
+</div>
+
+<div class="card-group">
+
+    {{ range where .Data.Pages "Section" "work" }}
+      <div class="card card--hoverscale">
+        <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ .Params.post_thumbnail }}" alt="">
+        <noscript><img src="{{ .Params.post_thumbnail }}" alt="" /></noscript>
+        <a href="{{ .Permalink }}" class="overlay"></a>
+       <div class="card__text"><a href="{{ .Permalink }}"><h2>{{ .Title }}</h2></a></div>
+     </div>
+    {{ end }}
+
+</div>
+
+{{end}}

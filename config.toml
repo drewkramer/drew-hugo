@@ -1,0 +1,22 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Drew Kramer"
+
+
+[author]
+  name = "Drew Kramer"
+
+[[menu.main]]
+  name = "Work"
+  url = "/work/"
+  weight = 5
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 10
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 15

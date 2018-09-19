@@ -1,0 +1,39 @@
+.hero {
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+
+  &__content {
+    max-width: 800px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    @media(min-width: 620px) {
+      margin-top: 160px;
+    }
+  }
+  
+  p {
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  
+  &--home {
+
+    h2 {
+      font-size: 28px;
+      line-height: 130%;
+      font-size: 30px;
+    
+      @media(min-width: 620px) {
+        font-size: 42px;
+      }
+    }
+
+    .hero__content {
+      margin-left: 0 !important;
+      text-align: left;
+    }
+  }
+}
