@@ -10,13 +10,20 @@
       padding-top: 52px;
     }
 
-  & > .social-menu {
+  &-right {
     display: none;
-      @media(min-width: 620px) {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-      }
+
+    @media(min-width: 620px) {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+    }
+
+    .social-menu {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+    }
 
       a {
         display: inline-block;
@@ -97,7 +104,6 @@
 
 }
 
-
 .mobile-nav {
   display: none;
   position: fixed;
@@ -106,7 +112,7 @@
   width: 100%;
   height: 100%;
   background: $bluegray;
-  animation: fadeInRight .3s;
+  animation: fadeInDown .5s;
   z-index: 999;
   
   &__inner {

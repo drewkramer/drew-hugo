@@ -1,11 +1,12 @@
 @import url("https://rsms.me/inter/inter-ui.css");
-@keyframes fadeInRight {
-  from {
+@keyframes fadeInDown {
+  0% {
     opacity: 0;
-    transform: translateX(-40px); }
-  to {
-    opacity: 1;
-    transform: translateX(0); } }
+    transform: translateY(-40px); } }
+@keyframes fadeInLeftSmall {
+  0% {
+    opacity: 0;
+    transform: translateX(10px); } }
 * {
   box-sizing: border-box;
   transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1); }
@@ -179,21 +180,25 @@ blockquote {
       display: flex;
       justify-content: space-between;
       padding-top: 52px; } }
-  .header > .social-menu {
+  .header-right {
     display: none; }
     @media (min-width: 620px) {
-      .header > .social-menu {
+      .header-right {
         display: flex;
         align-items: center;
         flex-direction: row; } }
-    .header > .social-menu a {
+    .header-right .social-menu {
+      display: flex;
+      align-items: center;
+      flex-direction: row; }
+    .header-right a {
       display: inline-block; }
-    .header > .social-menu svg {
+    .header-right svg {
       transform: scale(0.7);
       display: block; }
-      .header > .social-menu svg path {
+      .header-right svg path {
         fill: rgba(4, 4, 2, 0.5); }
-      .header > .social-menu svg:hover path {
+      .header-right svg:hover path {
         fill: #040402; }
 
 .menu {
@@ -251,7 +256,7 @@ blockquote {
   width: 100%;
   height: 100%;
   background: #040402;
-  animation: fadeInRight .3s;
+  animation: fadeInDown .5s;
   z-index: 999; }
   .mobile-nav__inner {
     position: absolute;
@@ -637,8 +642,7 @@ form button {
       width: auto; } }
 
 body.dark-mode {
-  background: #292927;
-  color: #fff; }
+  background: #292927; }
 
 .dark-mode h1,
 .dark-mode h2,
@@ -650,7 +654,42 @@ body.dark-mode {
 .dark-mode blockquote,
 .dark-mode .post-meta {
   color: #fff; }
-.dark-mode .header > .social-menu svg path {
-  color: rgba(255, 255, 255, 0.5); }
+.dark-mode .header-right svg path {
+  fill: rgba(255, 255, 255, 0.5); }
+.dark-mode .header-right a:hover svg path,
+.dark-mode .header-right .dark-mode-toggle:hover svg path {
+  fill: rgba(255, 255, 255, 0.8); }
+.dark-mode .dark-mode-toggle:before {
+  background: #333;
+  color: #fff; }
+.dark-mode .dark-mode-toggle:after {
+  background: rgba(255, 255, 255, 0.25); }
+
+.dark-mode-toggle {
+  margin-left: 20px;
+  position: relative; }
+  .dark-mode-toggle:before {
+    z-index: 1;
+    display: none;
+    content: attr(data-tooltip);
+    font-size: 10px;
+    background: #eee;
+    padding: 6px 7px;
+    position: absolute;
+    width: 100px;
+    top: 4px;
+    right: 120%;
+    text-align: center;
+    animation: fadeInLeftSmall .3s; }
+  .dark-mode-toggle:after {
+    content: "";
+    height: 22px;
+    width: 1px;
+    top: 6px;
+    background: rgba(0, 0, 0, 0.25);
+    position: absolute;
+    left: -11px; }
+  .dark-mode-toggle:hover:before {
+    display: block; }
 
 /*# sourceMappingURL=main.css.map */
