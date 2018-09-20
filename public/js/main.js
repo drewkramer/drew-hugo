@@ -37,4 +37,17 @@ $(function () {
         $("body").toggleClass("dark-mode");
     });
 
+    // //Toggle Class on Navbar
+    // //caches a jQuery object containing the header element
+    // var header = $("#navbar");
+    // $(window).scroll(function () {
+    //     var scroll = $(window).scrollTop();
+
+    //     if (scroll > 0) {
+    //         header.removeClass('not-detached').addClass("is-detached");
+    //     } else {
+    //         header.removeClass("is-detached").addClass('not-detached');
+    //     }
+    // });
+
 });

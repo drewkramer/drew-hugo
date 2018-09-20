@@ -53,20 +53,6 @@
   p {
     margin-bottom: 24px;
   }
-
-  a {
-      background: #fff;
-      border-radius: 4px;
-      padding: 18px 36px;
-      color: $bluegray;
-      display: inline-block;
-      font-size: 18px;
-
-      &:hover {
-        background: $bluegray;
-        color: #fff;
-      }
-  }
 }
 
 .sub-footer {

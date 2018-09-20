@@ -97,14 +97,15 @@ blockquote {
     opacity: 1; }
 
 .grid {
-  display: grid; }
-
-.grid-2 {
-  grid-template-columns: 1fr; }
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px; }
   @media (min-width: 800px) {
     .grid-2 {
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 20px; } }
+      grid-template-columns: 1fr 1fr; } }
+  @media (min-width: 800px) {
+    .grid-3 {
+      grid-template-columns: 1fr 1fr 1fr; } }
 
 @font-face {
   font-family: 'icomoon';
@@ -386,16 +387,6 @@ blockquote {
       font-size: 22px; } }
   .getintouch__words p {
     margin-bottom: 24px; }
-  .getintouch__words a {
-    background: #fff;
-    border-radius: 4px;
-    padding: 18px 36px;
-    color: #040402;
-    display: inline-block;
-    font-size: 18px; }
-    .getintouch__words a:hover {
-      background: #040402;
-      color: #fff; }
 
 .sub-footer {
   background: #040402;
@@ -478,12 +469,12 @@ blockquote {
     .card__text {
       bottom: 4rem; } }
   .card__text h2 {
-    color: #040402;
+    color: #fff;
     font-size: 22px;
     margin: 0;
     text-align: center;
     padding: 20px 35px;
-    background: rgba(255, 255, 255, 0.85); }
+    background: rgba(4, 4, 2, 0.9); }
     @media (min-width: 620px) {
       .card__text h2 {
         text-align: left;
@@ -640,6 +631,55 @@ form button {
   @media (min-width: 600px) {
     form button {
       width: auto; } }
+
+.button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  font-size: .875rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: #fff;
+  padding: 17px 35px 14px 35px;
+  min-width: 150px;
+  border-radius: 0;
+  border: none; }
+  .button span, .button i {
+    position: relative; }
+  .button:before {
+    content: "";
+    display: block;
+    background-color: #040402;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transform: scaleX(0);
+    transform-origin: right center; }
+  .button:hover:before {
+    transform: scale(1);
+    transform-origin: left center; }
+  .button:hover i {
+    transform: translateX(8px); }
+
+.button--white {
+  color: #040402;
+  background: #FFF; }
+  .button--white:hover {
+    color: #FFF; }
+
+.button--arrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  max-width: 280px;
+  padding: 18px 26px 18px 26px; }
 
 body.dark-mode {
   background: #292927; }

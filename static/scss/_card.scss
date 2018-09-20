@@ -68,12 +68,12 @@
   }
   
   h2 {
-      color: $bluegray;
+      color: #fff;
       font-size: 22px;
       margin: 0;
       text-align: center;
       padding: 20px 35px;
-      background: rgba(255,255,255,.85);
+      background: rgba($bluegray,.9);
 
       @media(min-width: 620px) {
           text-align: left;
