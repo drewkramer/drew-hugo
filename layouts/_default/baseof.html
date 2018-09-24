@@ -2,18 +2,15 @@
 <html lang="{{ .Site.LanguageCode }}">
 
 <head>
-    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="renderer" content="webkit">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Title -->
-    <title>{{.Title}}</title>
+    <title>{{.Title}}{{ if not .IsHome }} – Drew Kramer{{end}}</title>
     <!-- Meta -->
-    {{- if eq .Kind "page" }}
     <meta name="description" content="{{ .Params.description }}">
-    <meta name="author" content="{{ .Params.author | default .Site.Params.author }}"> {{ else }}
-    <meta name="description" content="{{ .Site.Params.description }}">
-    <meta name="author" content="{{ .Site.Params.author }}"> {{ end -}}
+    <meta property="og:site_name" content="Drew Kramer">
     <!-- Styles -->
     <link href="/css/main.css" rel="stylesheet">
     <!-- Favicons -->

@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Drew Kramer</title>
+    <title>Drew Kramer – Designer, developer. on Drew Kramer</title>
     <link>/</link>
-    <description>Recent content on Drew Kramer</description>
+    <description>Recent content in Drew Kramer – Designer, developer. on Drew Kramer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Jul 2018 21:49:19 -0400</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Success!</title>
+      <link>/success/</link>
+      <pubDate>Mon, 24 Sep 2018 11:29:15 -0400</pubDate>
+      
+      <guid>/success/</guid>
+      <description>Your message has been sent! I&#39;ll be in touch as soon as possible. Thanks again for reaching out. :)</description>
+    </item>
     
     <item>
       <title>About</title>
