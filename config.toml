@@ -20,3 +20,7 @@ title = "Drew Kramer"
   name = "Contact"
   url = "/contact/"
   weight = 15
+
+
+# Set Cloudinary URL for image hosting
+cloudinary_url = "https://res.cloudinary.com/drewkramer/image/upload"

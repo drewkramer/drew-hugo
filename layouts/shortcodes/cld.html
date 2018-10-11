@@ -1,0 +1,12 @@
+<div class="image">
+ <img
+ data-src="https://res.cloudinary.com/drewkramer/image/upload/w_auto,dpr_auto,c_scale,f_auto,q_auto/{{ .Get "src" }}"
+ class="cld-responsive" alt="{{ .Get "alt" }}">
+ {{ if .Get "caption"}}
+ <figure>
+ {{ end }}
+ {{ if .Get "caption"}}
+ <figcaption>{{ .Get "caption" }}</figcaption>
+ </figure>
+ {{ end }}
+ </div>

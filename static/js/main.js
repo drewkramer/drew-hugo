@@ -1,3 +1,6 @@
+const cl = cloudinary.Cloudinary.new({ cloud_name: 'drewkramer' })
+cl.responsive()
+
 $(function () {
 
     //init Blazy
