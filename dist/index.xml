@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drew Kramer – Designer, developer. on Drew Kramer</title>
+    <link>/</link>
+    <description>Recent content in Drew Kramer – Designer, developer. on Drew Kramer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Jul 2018 21:49:19 -0400</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Success!</title>
+      <link>/success/</link>
+      <pubDate>Mon, 24 Sep 2018 11:29:15 -0400</pubDate>
+      
+      <guid>/success/</guid>
+      <description>Your message has been sent! I&#39;ll be in touch as soon as possible. Thanks again for reaching out. :)</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Sun, 08 Jul 2018 11:22:30 -0400</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Sup!
+My name is Drew. I am a passionate designer and front-end developer from Los Angeles, CA.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Sun, 08 Jul 2018 01:01:10 -0400</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>Hello there! If you&#39;d like to get in touch with me, feel free to shoot an email to me at drew@drewkramer.co. Or use the form below!
+Don’t fill this out if you&#39;re human:  First Name   Last Name    Email   Message    Send Message     </description>
+    </item>
+    
+    <item>
+      <title>A Simple Palate</title>
+      <link>/work/a-simple-palate/</link>
+      <pubDate>Sun, 08 Jul 2018 00:03:35 -0400</pubDate>
+      
+      <guid>/work/a-simple-palate/</guid>
+      <description>Your Caption   Aute ipsum fugiat velit Lorem magna aliqua esse dolore amet commodo proident tempor. Irure eu duis commodo irure adipisicing dolor consectetur dolor magna aliqua laborum. Ipsum officia esse occaecat anim cupidatat aliqua dolor adipisicing do aute labore tempor velit laboris aute ex. Cillum officia magna non do ullamco ad id et incididunt nisi sint commodo pariatur. Officia reprehenderit irure quis tempor fugiat et fugiat anim cillum.</description>
+    </item>
+    
+    <item>
+      <title>Pennys Ice Cream</title>
+      <link>/work/pennys-ice-cream/</link>
+      <pubDate>Sun, 08 Jul 2018 00:03:35 -0400</pubDate>
+      
+      <guid>/work/pennys-ice-cream/</guid>
+      <description>Aute ipsum fugiat velit Lorem magna aliqua esse dolore amet commodo proident tempor. Irure eu duis commodo irure adipisicing dolor consectetur dolor magna aliqua laborum. Ipsum officia esse occaecat anim cupidatat aliqua dolor adipisicing do aute labore tempor velit laboris aute ex. Cillum officia magna non do ullamco ad id et incididunt nisi sint commodo pariatur. Officia reprehenderit irure quis tempor fugiat et fugiat anim cillum.
+ This is a subheading Aute ipsum fugiat velit Lorem magna aliqua esse dolore amet commodo proident tempor.</description>
+    </item>
+    
+  </channel>
+</rss>
