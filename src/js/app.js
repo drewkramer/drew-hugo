@@ -3,21 +3,6 @@ cl.responsive()
 
 $(function () {
 
-    //init Blazy
-    var bLazy = new Blazy({
-        success: function (ele) {
-            // Image has loaded
-            // Do your business here
-        },
-        error: function (ele, msg) {
-            if (msg === 'missing') {
-                // Data-src is missing
-            } else if (msg === 'invalid') {
-                // Data-src is invalid
-            }
-        }
-    });
-
     //Mobile nav
     $(".mobile-nav-toggle").click(function () {
         $(".mobile-nav").show(400, function () {
@@ -39,18 +24,5 @@ $(function () {
     $(".dark-mode-toggle").click(function () {
         $("body").toggleClass("dark-mode");
     });
-
-    // //Toggle Class on Navbar
-    // //caches a jQuery object containing the header element
-    // var header = $("#navbar");
-    // $(window).scroll(function () {
-    //     var scroll = $(window).scrollTop();
-
-    //     if (scroll > 0) {
-    //         header.removeClass('not-detached').addClass("is-detached");
-    //     } else {
-    //         header.removeClass("is-detached").addClass('not-detached');
-    //     }
-    // });
 
 });

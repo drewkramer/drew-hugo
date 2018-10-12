@@ -11,8 +11,12 @@
 
     {{ range where .Data.Pages "Section" "work" }}
       <div class="card card--hoverscale">
-        <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ .Params.post_thumbnail }}" alt="">
-        <noscript><img src="{{ .Params.post_thumbnail }}" alt="" /></noscript>
+          
+              <img 
+              data-src="{{ .Site.Params.cloudinary_url }}/w_auto,dpr_auto,c_scale,f_auto,q_auto/{{ .Params.post_thumbnail }}" 
+              class="cld-responsive" 
+              alt="{{ .Params.post_thumbnail_alt }}">
+          
         <a href="{{ .Permalink }}" class="overlay"></a>
        <div class="card__text"><a href="{{ .Permalink }}"><h2>{{ .Title }}</h2></a></div>
      </div>

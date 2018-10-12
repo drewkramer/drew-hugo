@@ -3,7 +3,10 @@
         <div class="getintouch">
             <div class="getintouch-grid">
                 <div class="getintouch__img">
-                    <img class="img-circle" src="//res.cloudinary.com/drewkramer/image/upload/v1537372347/drewkramer/dk-hero.jpg" alt="Drew Kramer">
+                    <img 
+                        data-src="{{ .Site.Params.cloudinary_url }}/w_auto,dpr_auto,c_scale,f_auto,q_auto/v1537372347/drewkramer/dk-hero.jpg" 
+                        class="cld-responsive img-circle" 
+                        alt="Drew Kramer">
                 </div>
                 <div class="getintouch__words">
                     <p>👋 I’m Drew. I love Jesus, my wife Bethany, design, & black coffee.</p>

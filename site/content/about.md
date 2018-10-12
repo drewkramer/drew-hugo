@@ -8,7 +8,7 @@ draft: false
 ---
 
 <figure>
-<img src="/img/dk-hero.jpg" alt="Drew Kramer">
+{{< cld src="v1537372347/drewkramer/dk-hero.jpg" alt="Drew Kramer" >}}
 </figure>
 
 Sup!

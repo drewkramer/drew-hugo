@@ -13,7 +13,10 @@
     {{ end }}
     {{ if .Params.post_thumbnail }}
     <figure class="hero-image">
-      <img src="{{ .Params.post_thumbnail }}" alt="">
+      <img 
+        data-src="{{ .Site.Params.cloudinary_url }}/w_auto,dpr_auto,c_scale,f_auto,q_auto/{{ .Params.post_thumbnail }}" 
+        class="cld-responsive" 
+        alt="{{ .Params.post_thumbnail_alt }}">
     </figure>
     {{end}}
   </div>

@@ -22,5 +22,5 @@ title = "Drew Kramer"
   weight = 15
 
 
-# Set Cloudinary URL for image hosting
-cloudinary_url = "https://res.cloudinary.com/drewkramer/image/upload"
+[params]
+  cloudinary_url = "https://res.cloudinary.com/drewkramer/image/upload"
