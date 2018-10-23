@@ -1,4 +1,4 @@
-@import url("https://rsms.me/inter/inter-ui.css");
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif:400,700|Work+Sans:400,700");
 @keyframes fadeInDown {
   0% {
     opacity: 0;
@@ -18,7 +18,7 @@ body {
 
 body {
   background: #fffefc;
-  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 18px;
   font-weight: normal;
   color: #040402;
@@ -31,14 +31,12 @@ main {
 a {
   text-decoration: none;
   color: #000; }
-  a:hover {
-    color: tan; }
 
 h1,
 h2,
 h3 {
   font-weight: 400;
-  color: #040402;
+  color: #000;
   letter-spacing: -0.6px; }
 
 h2 {
@@ -54,7 +52,8 @@ p {
   margin: 0; }
 
 p, ol, ul {
-  color: rgba(4, 4, 2, 0.7); }
+  font-family: "Noto Serif", serif;
+  color: #444; }
 
 blockquote {
   font-size: 24px;
@@ -432,18 +431,15 @@ blockquote {
 .card {
   width: 100%;
   background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
   position: relative;
-  height: 500px; }
+  height: 400px; }
   @media (min-width: 800px) {
     .card {
-      height: 600px; } }
+      height: 500px; } }
   .card img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    border-radius: 8px; }
+    object-fit: cover; }
   @media (min-width: 992px) {
     .card--hoverscale:hover {
       transform: scale(0.98);
@@ -457,8 +453,6 @@ blockquote {
     @media (min-width: 800px) {
       .card--form {
         padding: 4rem; } }
-  .card .overlay {
-    border-radius: 8px; }
 
 .card__text {
   position: absolute;
