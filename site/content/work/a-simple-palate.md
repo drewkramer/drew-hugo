@@ -5,6 +5,9 @@ description:
 tags: ['Website', 'Blog']
 post_thumbnail: "v1537372347/drewkramer/asimplepalate-feature.jpg"
 post_thumbnail_alt: "A Simple Palate Blog"
+post_thumbnail_overlay: true
+colorbar: "#a78181"
+# gradient: "#D2F7EC"
 type: "work"
 draft: false
 ---

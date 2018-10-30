@@ -1,5 +1,5 @@
 {{ define "main" }}
-<article class="single-post">
+<article class="single-post {{ if .Params.post_thumbnail }}has-post-thumb{{end}}">
   <div class="hero">
     <div class="hero__content">
       <h1 class="post-title">{{ .Title }}</h1>
@@ -11,14 +11,6 @@
       {{ end }}
     </div>
     {{ end }}
-    {{ if .Params.post_thumbnail }}
-    <figure class="hero-image">
-      <img 
-        data-src="{{ .Site.Params.cloudinary_url }}/w_auto,dpr_auto,c_scale,f_auto,q_auto/{{ .Params.post_thumbnail }}" 
-        class="cld-responsive" 
-        alt="{{ .Params.post_thumbnail_alt }}">
-    </figure>
-    {{end}}
   </div>
     <!-- {{ if .Params.Type }}
     <div class="post-list__meta">

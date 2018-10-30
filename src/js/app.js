@@ -21,8 +21,8 @@ $(function () {
     });
 
     //Dark Mode Toggle
-    $(".dark-mode-toggle").click(function () {
-        $("body").toggleClass("dark-mode");
-    });
+    // $(".dark-mode-toggle").click(function () {
+    //     $("body").toggleClass("dark-mode");
+    // });
 
 });

@@ -2,26 +2,27 @@
 <div class="container">
     <div class="hero hero--home">
         <div class="hero__content">
-            <h2>Designer / front-end developer creating captivating interfaces & visuals to help brands grow.</h2>
+            <h2 class="hero__title">Front-end designer creating captivating interfaces & visuals to help brands grow.</h2>
         </div>
     </div>
 </div>
-
-<div class="card-group">
-
-    {{ range where .Data.Pages "Section" "work" }}
-      <div class="card card--hoverscale">
-          
-              <img 
-              data-src="{{ .Site.Params.cloudinary_url }}/w_auto,dpr_auto,c_scale,f_auto,q_auto/{{ .Params.post_thumbnail }}" 
-              class="cld-responsive" 
-              alt="{{ .Params.post_thumbnail_alt }}">
-          
-        <a href="{{ .Permalink }}" class="overlay"></a>
-       <div class="card__text"><a href="{{ .Permalink }}"><h2>{{ .Title }}</h2></a></div>
-     </div>
-    {{ end }}
-
+<div class="container">
+    <div class="card-group card-group--2">
+    
+        {{ range where .Data.Pages "Section" "work" }}
+          <div class="card">
+              
+                  <img 
+                  data-src="{{ .Site.Params.cloudinary_url }}/w_auto,dpr_auto,c_scale,f_auto,q_auto/{{ .Params.post_thumbnail }}" 
+                  class="cld-responsive" 
+                  alt="{{ .Params.post_thumbnail_alt }}">
+              
+            <a href="{{ .Permalink }}" class="overlay"></a>
+           <div class="card__text"><a href="{{ .Permalink }}"><h2>{{ .Title }}</h2></a></div>
+         </div>
+        {{ end }}
+    
+    </div>
 </div>
 
 {{end}}

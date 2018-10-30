@@ -5,7 +5,7 @@ $edit-mode: true !default; // [ true / false ] - Enables/disables the grid toggl
 
 // Theme / Fonts
 $theme: custom !default; // [ Merriweather / OpenSans / custom ]
-$custom-font-body: Georgia, serif !default; // [ "Libre Baskerville", Georgia, serif ]
+$custom-font-body: Tenor Sans, sans-serif !default; // [ "Libre Baskerville", Georgia, serif ]
 $custom-font-headings: Work Sans, sans-serif !default;
 
 // Paragraph indenting
@@ -33,8 +33,8 @@ $modular-scale: (
 ) !default;
 
 // Colors
-$color-font-body: #222 !default;
-$color-font-headings: $color-font-body !default;
+$color-font-body: #444 !default;
+$color-font-headings: #000;
 $color-font-light: #888 !default;
 $color-font-figcaption: $color-font-body !default;
 
