@@ -5,6 +5,8 @@ description:
 tags: ['Website', 'Branding']
 post_thumbnail: "v1537372347/drewkramer/pennys-featured.jpg"
 post_thumbnail_alt: "Pennys"
+post_thumbnail_overlay: 
+colorbar: "#D7AEBF"
 type: "work"
 draft: false
 ---

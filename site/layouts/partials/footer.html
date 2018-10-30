@@ -1,9 +1,26 @@
-{{ if .IsHome }}{{ partial "getintouch" . }}{{ end }}
+<!-- {{ if .IsHome }}{{ partial "getintouch" . }}{{ end }} -->
 <footer class="sub-footer">
     <div class="container">
-        <ul class="footer-nav">
-            {{ range .Site.Menus.main }}<li><a href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}
-        </ul>
-        {{ partial "social.html" . }}
+        <div class="grid grid-2">
+            <div class="grid-item">
+                <a href="/" class="site-logo"><span>Drew Kramer</span></a>
+                {{ partial "social.html" . }}
+            </div>
+            <div class="grid-item">
+                <div class="grid grid-2 grid-2--xs">
+                    <div class="footer-nav">
+                        <a href="/work">Work</a>
+                        <a href="/about">About</a>
+                        <a href="/resume">Resumé</a>
+                    </div>
+                    <div class="footer-nav">
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Dribbble</a>
+                        <a href="#">Github</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </footer>

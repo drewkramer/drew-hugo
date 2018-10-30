@@ -1,17 +1,19 @@
 .card-group {
   display: grid;
-  grid-gap: 40px;
+  grid-gap: 20px;
   margin: auto;
-  margin-bottom: 40px;
+  margin-bottom: 4rem;
   width: 100%;
-  padding-right: 20px;
-  padding-left: 20px;
-  max-width: 1340px;
+//   padding-right: 20px;
+//   padding-left: 20px;
+  max-width: 1420px;
 
-  @media (min-width: 800px) {
-    grid-gap: 80px;
-    margin-bottom: 80px;
+  &--2 {
+      @media (min-width: 800px) {
+        grid-template-columns: 1fr 1fr;
+      }
   }
+
 }
 
 .card {
@@ -30,13 +32,6 @@
         object-fit: cover;
     }
 
-    &--hoverscale:hover {
-        @media (min-width: 992px) {
-            transform: scale(.98);
-            box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.1);
-        }
-    }
-
     &--form {
         padding: 1.85rem;
         max-width: 900px;
@@ -48,33 +43,54 @@
             padding: 4rem;
         }
     }
+    // .overlay {
+    //     display: inline-block;
+    //     position: absolute;
+    //     top: 0;
+    //     right: 0;
+    //     bottom: 0;
+    //     left: 0;
+    //     background: rgba(0, 0, 0, 0.4);
+    //     opacity: 0;
+    // }
 }
 
 .card__text {
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.4);
   position: absolute;
-  bottom: 3rem;
-  max-width: 100%;
-  display: block;
-
-  @media(min-width: 620px) {
-    bottom: 4rem;
-  }
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all .3s;
   
   h2 {
       color: #fff;
-      font-size: 22px;
+      font-size: 20px;
       margin: 0;
       text-align: center;
-      padding: 20px 35px;
-      background: rgba($bluegray,.9);
-
-      @media(min-width: 620px) {
-          text-align: left;
-          margin-left: 4rem;
-      }
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      width: 100%;
+      font-weight: 400;
   }
 
   a {
+      position: absolute;
+      top: 0;
+      left: 0;
       display: block;
+      width: 100%;
+      height: 100%;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
   }
+}
+
+.card:hover {
+    .card__text {
+        opacity: 1;
+    }
 }

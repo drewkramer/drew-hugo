@@ -1,18 +1,57 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,700|Work+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Tenor+Sans:400,700|Work+Sans:400,700');
 //@import url('https://rsms.me/inter/inter-ui.css');
 @import 'variables';
 @import 'animations';
-@import 'base';
-@import 'grid';
+//@import 'base';
+//@import 'grid';
 @import 'icons';
-@import 'header';
-@import 'hero';
-@import 'footer';
+//@import 'header';
+//@import 'hero';
+//@import 'footer';
 @import 'card';
-@import 'post';
 @import 'form';
-@import 'button';
-@import 'darkmode';
+@import 'buttons';
+//@import 'darkmode';
+
+@import "gutenberg-config";
+
+@import "mixins/font-size";
+@import "mixins/line-height";
+@import "mixins/margin";
+@import "mixins/padding";
+
+@import "layout/base";
+@import 'layout/post';
+//@import "layout/aside";
+@import "layout/footer";
+@import "layout/header";
+//@import "layout/main";
+//@import "layout/section";
+@import 'layout/grid';
+@import 'layout/hero';
+
+
+@import "modules/anchor";
+//@import "modules/article";
+//@import "modules/audio";
+//@import "modules/canvas";
+@import "modules/code";
+@import "modules/details";
+@import "modules/figure";
+@import "modules/form";
+@import "modules/heading";
+@import "modules/horizontal-rule";
+@import "modules/image";
+@import "modules/list";
+@import "modules/navigation";
+@import "modules/progress";
+@import "modules/quote";
+@import "modules/table";
+@import "modules/template";
+@import "modules/text";
+@import "modules/colorbar";
+@import "modules/logo";
+//@import "modules/video";
 
 // Variables
 // $bluegray: #040402;
