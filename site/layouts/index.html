@@ -17,8 +17,10 @@
                   class="cld-responsive" 
                   alt="{{ .Params.post_thumbnail_alt }}">
               
-            <a href="{{ .Permalink }}" class="overlay"></a>
-           <div class="card__text"><a href="{{ .Permalink }}"><h2>{{ .Title }}</h2></a></div>
+            <!-- <a href="{{ .Permalink }}" class="overlay"></a> -->
+            <a class="card__text" href="{{ .Permalink }}">
+               <h3 class="card__title">{{ .Title }}</h3>
+            </a>
          </div>
         {{ end }}
     
