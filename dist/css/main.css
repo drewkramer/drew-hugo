@@ -1,5 +1,41 @@
 @import url("https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css");
 @import url("https://fonts.googleapis.com/css?family=Karla:400,700");
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px); } }
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px); } }
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(15px);
+            transform: translateY(15px); } }
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(15px);
+            transform: translateY(15px); } }
+@-webkit-keyframes fadeInLeftSmall {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px); } }
+@keyframes fadeInLeftSmall {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px); } }
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0; } }
+@keyframes fadeIn {
+  0% {
+    opacity: 0; } }
 @font-face {
   font-family: 'butlerlight';
   src: url("https://res.cloudinary.com/drewkramer/raw/upload/v1541645654/drewkramer/butler_light-webfont.woff2") format("woff2"), url("https://res.cloudinary.com/drewkramer/raw/upload/v1541631923/drewkramer/butler_light-webfont.woff") format("woff");
@@ -15,16 +51,13 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  background: #333;
+  bottom: 0;
+  right: 0;
+  background: #fff;
   -webkit-animation: fadeInDown .5s;
           animation: fadeInDown .5s;
   z-index: 999; }
 .mobile-nav__inner {
-    position: absolute;
-    left: 0;
-    bottom: 0;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -33,31 +66,36 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    text-align: left;
-    margin: 50px 0;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%; }
+    text-align: right;
+    margin: 96px 0 0;
+    margin: 6rem 0 0;
+    padding-left: 32px;
+    padding-left: 2rem; }
 .mobile-nav__inner > a {
-      color: rgba(255, 255, 255, .5);
+      color: rgba(0, 0, 0, .6);
       display: block;
-      margin: 0px 30px;
-      font-size: 28vw;
-      letter-spacing: -4px;
+      margin: 0 30px 11.2px;
+      margin: 0 30px .7rem;
+      font-size: 24px;
+      font-size: 1.5rem;
+      letter-spacing: .25px;
       font-weight: 400;
-      line-height: 1; }
+      -webkit-transition: all .3s;
+      transition: all .3s; }
+.mobile-nav__inner > a:hover {
+        text-decoration: none;
+        color: black; }
 .mobile-nav__close {
     cursor: pointer;
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     margin: 30px; }
 .mobile-nav__close svg {
       width: 30px;
       height: 30px; }
 .mobile-nav__close svg path {
-        fill: rgba(255, 255, 255, .64); }
+        fill: rgba(0, 0, 0, .64); }
 .mobile-nav-toggle {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -91,74 +129,74 @@
     .grid-3 {
       grid-template-columns: 1fr 1fr 1fr; } }
 h1 {
-  font-size: 3.325em;
-  line-height: 1.0714285714;
-  margin-bottom: 0.4285714286em; }
+  font-size: 3.3em;
+  line-height: 1.25;
+  margin-bottom: 0.5em; }
 h2 {
-  font-size: 2.375em;
+  font-size: 2.75em;
   line-height: 1.2;
   margin-bottom: 0.6em; }
 h3 {
-  font-size: 1.9em;
+  font-size: 2.2em;
   line-height: 1.125;
   margin-bottom: 0.75em; }
 h4 {
-  font-size: 1.425em;
-  line-height: 1.425em;
+  font-size: 1.65em;
+  line-height: 1.65em;
   margin-bottom: 1em; }
 h5 {
-  font-size: 1.1875em;
-  line-height: 1.425em;
+  font-size: 1.375em;
+  line-height: 1.65em;
   margin-bottom: 1.2em; }
 h6 {
-  font-size: 0.95em;
-  line-height: 1.425em;
+  font-size: 1.1em;
+  line-height: 1.65em;
   margin-bottom: 1.5em; }
 body {
-  font-size: 0.95em;
+  font-size: 1.1em;
   line-height: 1.5; }
 p,
 ol,
 ul,
 pre,
 .btn {
-  font-size: 0.95em;
+  font-size: 1.1em;
   line-height: 1.5;
   margin-bottom: 1.5em;
   letter-spacing: -0.2px; }
 @media (min-width: 521px) {
   h1 {
-    font-size: 3.99em;
-    line-height: 1.1842105263;
-    margin-bottom: 0.3947368421em; }
+    font-size: 4.6em;
+    line-height: 1.125;
+    margin-bottom: 0.375em; }
 
   h2 {
-    font-size: 2.94em;
+    font-size: 3.22em;
     line-height: 1.0714285714;
     margin-bottom: 0.5357142857em; }
 
   h3 {
-    font-size: 2.205em;
+    font-size: 2.415em;
     line-height: 1.0714285714;
     margin-bottom: 0.7142857143em; }
 
   h4 {
-    font-size: 1.575em;
-    line-height: 1.575em;
+    font-size: 1.725em;
+    line-height: 1.725em;
     margin-bottom: 1em; }
 
   h5 {
-    font-size: 1.3125em;
-    line-height: 1.575em;
+    font-size: 1.4375em;
+    line-height: 1.725em;
     margin-bottom: 1.2em; }
 
   h6 {
-    font-size: 1.05em;
-    line-height: 1.575em;
+    font-size: 1.15em;
+    line-height: 1.725em;
     margin-bottom: 1.5em; }
 
   body {
-    font-size: 1.05em;
+    font-size: 1.15em;
     line-height: 1.5; }
 
   p,
@@ -166,43 +204,43 @@ pre,
   ul,
   pre,
   .btn {
-    font-size: 1.05em;
+    font-size: 1.15em;
     line-height: 1.5;
     margin-bottom: 1.5em;
     letter-spacing: -0.2px; } }
 @media (min-width: 992px) {
   h1 {
-    font-size: 5.06em;
-    line-height: 1.0434782609;
-    margin-bottom: 0.347826087em; }
+    font-size: 5.76em;
+    line-height: 1.1666666667;
+    margin-bottom: 0.3333333333em; }
 
   h2 {
-    font-size: 3.08em;
+    font-size: 3.36em;
     line-height: 1.1428571429;
     margin-bottom: 0.5714285714em; }
 
   h3 {
-    font-size: 2.31em;
+    font-size: 2.52em;
     line-height: 1.1428571429;
     margin-bottom: 0.7619047619em; }
 
   h4 {
-    font-size: 1.65em;
-    line-height: 1.76em;
+    font-size: 1.8em;
+    line-height: 1.92em;
     margin-bottom: 1.0666666667em; }
 
   h5 {
-    font-size: 1.375em;
-    line-height: 1.76em;
+    font-size: 1.5em;
+    line-height: 1.92em;
     margin-bottom: 1.28em; }
 
   h6 {
-    font-size: 1.1em;
-    line-height: 1.76em;
+    font-size: 1.2em;
+    line-height: 1.92em;
     margin-bottom: 1.6em; }
 
   body {
-    font-size: 1.1em;
+    font-size: 1.2em;
     line-height: 1.6; }
 
   p,
@@ -210,7 +248,7 @@ pre,
   ul,
   pre,
   .btn {
-    font-size: 1.1em;
+    font-size: 1.2em;
     line-height: 1.6;
     margin-bottom: 1.6em;
     letter-spacing: -0.2px; } }
@@ -254,19 +292,19 @@ img {
   max-width: 100%;
   height: auto; }
 .btn body {
-  font-size: 0.95em;
+  font-size: 1.1em;
   line-height: 1.5; }
 @media (min-width: 521px) {
   .btn body {
-    font-size: 1.05em;
+    font-size: 1.15em;
     line-height: 1.5; } }
 @media (min-width: 992px) {
   .btn body {
-    font-size: 1.1em;
+    font-size: 1.2em;
     line-height: 1.6; } }
 .navbar {
-  padding: 24px 0;
-  padding: 1.5rem 0; }
+  padding: 24px 15px;
+  padding: 1.5rem 15px; }
 .navbar-brand {
     letter-spacing: 2px;
     text-transform: uppercase;
