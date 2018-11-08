@@ -150,13 +150,14 @@ img {
 }
 .hero__title {
   margin-bottom: 4rem;
+  line-height: 1;
+  animation: fadeInUp .5s;
 }
 
 .work-item {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin-bottom: 2rem;
+  display: block;
+  text-align: left;
+  margin-bottom: 3rem;
   color: #000;
   transition: all .3s;
 
@@ -166,13 +167,21 @@ img {
     transform: translateY(-5px);
   }
 }
-.work-item__title {
-  margin: 1rem auto -4px;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 1.2em;
-  letter-spacing: 2px;
+
+.work-item__title,
+.work-item__desc {
+  padding-left: 2rem;
 }
+
+.work-item__title {
+  font-family: $font-default;
+  margin: 1.5rem auto 0;
+  //text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 1.2em;
+  //letter-spacing: 2px;
+}
+
 .work-item__desc {
   font-size: 85%;
   color: #555;
