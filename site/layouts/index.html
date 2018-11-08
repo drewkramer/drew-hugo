@@ -1,30 +1,47 @@
 {{ define "main" }}
-<div class="container">
-    <div class="hero hero--home">
-        <div class="hero__content">
-            <h2 class="hero__title">Front-end designer creating captivating interfaces & visuals to help brands grow.</h2>
+
+<section class="hero hero--centered">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 offset-md-1">
+                <h1 class="hero__title">An Introduction Statement Here Would Be a Good Idea.</h1>
+            </div>
         </div>
     </div>
-</div>
-<div class="container">
-    <div class="card-group card-group--2">
-    
-        {{ range where .Data.Pages "Section" "work" }}
-          <div class="card">
-              
-                  <img 
-                  data-src="{{ .Site.Params.cloudinary_url }}/w_auto,dpr_auto,c_scale,f_auto,q_auto/{{ .Params.post_thumbnail }}" 
-                  class="cld-responsive" 
-                  alt="{{ .Params.post_thumbnail_alt }}">
-              
-            <!-- <a href="{{ .Permalink }}" class="overlay"></a> -->
-            <a class="card__text" href="{{ .Permalink }}">
-               <h3 class="card__title">{{ .Title }}</h3>
-            </a>
-         </div>
-        {{ end }}
-    
+</section>
+<section class="work">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <a href="#" class="work-item">
+                    <img src="https://res.cloudinary.com/drewkramer/image/upload/v1541645878/drewkramer/d-b.jpg" alt="">
+                    <h3 class="work-item__title">Work Item Title</h3>
+                    <p class="work-item__desc">A short description about this work item</p>
+                </a>
+            </div>
+            <div class="col-md-6">
+                <a href="#" class="work-item">
+                    <img src="https://res.cloudinary.com/drewkramer/image/upload/v1541645878/drewkramer/d-b.jpg" alt="">
+                    <h3 class="work-item__title">Work Item Title</h3>
+                    <p class="work-item__desc">A short description about this work item</p>
+                </a>
+            </div>
+            <div class="col-md-6">
+                <a href="#" class="work-item">
+                    <img src="https://res.cloudinary.com/drewkramer/image/upload/v1541645878/drewkramer/d-b.jpg" alt="">
+                    <h3 class="work-item__title">Work Item Title</h3>
+                    <p class="work-item__desc">A short description about this work item</p>
+                </a>
+            </div>
+            <div class="col-md-6">
+                <a href="#" class="work-item">
+                    <img src="https://res.cloudinary.com/drewkramer/image/upload/v1541645878/drewkramer/d-b.jpg" alt="">
+                    <h3 class="work-item__title">Work Item Title</h3>
+                    <p class="work-item__desc">A short description about this work item</p>
+                </a>
+            </div>
+        </div>
     </div>
-</div>
+</section>
 
 {{end}}

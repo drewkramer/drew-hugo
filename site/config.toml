@@ -1,10 +1,22 @@
 baseURL = "/"
 languageCode = "en-us"
+languageLang = "en"
 title = "Drew Kramer"
+pluralizelisttitles = false
 
+enableEmoji = true
 
 [author]
   name = "Drew Kramer"
+
+[params]
+  description = ""
+  strapline = "UI/UX Design & Development"
+  location = "Lancaster, PA"
+  twitter = "@drewkramer"
+  # Set Cloudinary URL for image hosting
+  cloudinary_url = "https://res.cloudinary.com/drewkramer/image/upload"
+  author = "Drew Kramer"
 
 [[menu.main]]
   name = "Work"
@@ -20,7 +32,3 @@ title = "Drew Kramer"
   name = "Contact"
   url = "/contact/"
   weight = 15
-
-
-[params]
-  cloudinary_url = "https://res.cloudinary.com/drewkramer/image/upload"

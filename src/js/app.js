@@ -1,6 +1,3 @@
-const cl = cloudinary.Cloudinary.new({ cloud_name: 'drewkramer' })
-cl.responsive()
-
 $(function () {
 
     //Mobile nav
@@ -19,10 +16,5 @@ $(function () {
         $("body").removeClass("nav-open");
         $(".mobile-nav").removeClass("open");
     });
-
-    //Dark Mode Toggle
-    // $(".dark-mode-toggle").click(function () {
-    //     $("body").toggleClass("dark-mode");
-    // });
 
 });

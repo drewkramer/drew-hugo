@@ -1,26 +1,43 @@
-<!-- {{ if .IsHome }}{{ partial "getintouch" . }}{{ end }} -->
-<footer class="sub-footer">
-    <div class="container">
-        <div class="grid grid-2">
-            <div class="grid-item">
-                <a href="/" class="site-logo"><span>Drew Kramer</span></a>
-                {{ partial "social.html" . }}
-            </div>
-            <div class="grid-item">
-                <div class="grid grid-2 grid-2--xs">
-                    <div class="footer-nav">
-                        <a href="/work">Work</a>
-                        <a href="/about">About</a>
-                        <a href="/resume">Resumé</a>
-                    </div>
-                    <div class="footer-nav">
-                        <a href="#">Facebook</a>
-                        <a href="#">Instagram</a>
-                        <a href="#">Dribbble</a>
-                        <a href="#">Github</a>
+    <footer class="Footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <a class="navbar-brand" href="#">Drew Kramer</a>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <nav class="nav flex-column">
+                                <a class="nav-link" href="#">Work</a>
+                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="#">Contact</a>
+                            </nav>
+                        </div>
+                        <div class="col-sm-6">
+                            <nav class="nav flex-column">
+                                <a class="nav-link" href="#">Instagram</a>
+                                <a class="nav-link" href="#">Dribbble</a>
+                                <a class="nav-link" href="#">Github</a>
+                            </nav>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    <script src="/app.js"></script>
+
+    <!-- Load responsive images via Cloudinary -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cloudinary-core/2.5.0/cloudinary-core-shrinkwrap.min.js"></script>
+
+    <script>
+        var cl = cloudinary.Cloudinary.new({
+            cloud_name: "drewkramer"
+        });
+        cl.responsive();
+    </script>
+
+</body>
+</html>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Drew Kramer – Designer, developer. on Drew Kramer</title>
+    <title>Drew Kramer</title>
     <link>/</link>
-    <description>Recent content in Drew Kramer – Designer, developer. on Drew Kramer</description>
+    <description>Recent content on Drew Kramer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Jul 2018 21:49:19 -0400</lastBuildDate>
@@ -26,8 +26,7 @@
       <pubDate>Sun, 08 Jul 2018 11:22:30 -0400</pubDate>
       
       <guid>/about/</guid>
-      <description>Sup!
-My name is Drew. I am a passionate designer and front-end developer from Los Angeles, CA.</description>
+      <description>   Sup! My name is Drew. I am a passionate designer and front-end developer from Los Angeles, CA. </description>
     </item>
     
     <item>
@@ -46,8 +45,7 @@ Don’t fill this out if you&#39;re human:  First Name   Last Name    Email   Me
       <pubDate>Sun, 08 Jul 2018 00:03:35 -0400</pubDate>
       
       <guid>/work/a-simple-palate/</guid>
-      <description>Aute ipsum fugiat velit Lorem magna aliqua esse dolore amet commodo proident tempor. Irure eu duis commodo irure adipisicing dolor consectetur dolor magna aliqua laborum. Ipsum officia esse occaecat anim cupidatat aliqua dolor adipisicing do aute labore tempor velit laboris aute ex. Cillum officia magna non do ullamco ad id et incididunt nisi sint commodo pariatur. Officia reprehenderit irure quis tempor fugiat et fugiat anim cillum.
- Heading number two Aute ipsum fugiat velit Lorem magna aliqua esse dolore amet commodo proident tempor.</description>
+      <description>Heading Number Three Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
     <item>

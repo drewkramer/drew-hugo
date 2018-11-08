@@ -1,59 +1,257 @@
-@import url('https://fonts.googleapis.com/css?family=Tenor+Sans:400,700|Work+Sans:400,700');
-//@import url('https://rsms.me/inter/inter-ui.css');
-@import 'variables';
-@import 'animations';
-//@import 'base';
-//@import 'grid';
-@import 'icons';
-//@import 'header';
-//@import 'hero';
-//@import 'footer';
-@import 'card';
-@import 'form';
-@import 'buttons';
-//@import 'darkmode';
-
-@import "gutenberg-config";
-
-@import "mixins/font-size";
-@import "mixins/line-height";
-@import "mixins/margin";
-@import "mixins/padding";
-
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css');
 @import "layout/base";
+@import 'fonts';
+@import 'core/shevy';
+
 @import 'layout/post';
-//@import "layout/aside";
 @import "layout/footer";
 @import "layout/header";
-//@import "layout/main";
-//@import "layout/section";
 @import 'layout/grid';
 @import 'layout/hero';
 
+$font-default: "Karla", -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+$font-headings: "butlerlight", Georgia, serif;
+$font-mono: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;
 
-@import "modules/anchor";
-//@import "modules/article";
-//@import "modules/audio";
-//@import "modules/canvas";
-@import "modules/code";
-@import "modules/details";
-@import "modules/figure";
-@import "modules/form";
-@import "modules/heading";
-@import "modules/horizontal-rule";
-@import "modules/image";
-@import "modules/list";
-@import "modules/navigation";
-@import "modules/progress";
-@import "modules/quote";
-@import "modules/table";
-@import "modules/template";
-@import "modules/text";
-@import "modules/colorbar";
-@import "modules/logo";
-//@import "modules/video";
+$shevy: (
+  base-font-size: .95em,
+  base-line-height: 1.5,
+  base-font-scale: (3.5, 2.5, 2, 1.5, 1.25, 1),
+);
+$responsive-medium: (
+  base-font-size: 1.05em,
+  base-font-scale: (3.8, 2.8, 2.1, 1.5, 1.25, 1),
+);
+$responsive-large: (
+  base-font-size: 1.1em,
+  base-line-height: 1.6,
+  base-font-scale: (4.6, 2.8, 2.1, 1.5, 1.25, 1),
+);
+@include headings;
+@include body;
+@include content;
 
-// Variables
-// $bluegray: #040402;
-// $lightgray: #f1efec;
-// $brightblue: #42A8F4;
+@media (min-width: 521px) {
+  @include headings($responsive-medium);
+  @include body($responsive-medium);
+  @include content($responsive-medium);
+}
+@media (min-width: 992px) {
+  @include headings($responsive-large);
+  @include body($responsive-large);
+  @include content($responsive-large);
+}
+
+
+body {
+  font-family: $font-default;
+  background: #efefef;
+  color: #555;
+  border-top: .75rem solid #2a2a2a;
+  //letter-spacing: -0.1px;
+}
+
+.hero-title {
+    line-height: .98;
+    margin-bottom: 1.5rem;
+}
+
+h1, h2, h3, h4 {
+  font-family: $font-headings;
+  font-weight: 400;
+  color: #2a2a2a;
+}
+
+h3,
+h4 {
+  font-weight: 400;
+}
+
+h1 {
+  letter-spacing: -1px;
+}
+
+strong {
+  color: #2a2a2a;
+}
+
+.meta {
+    font-size: 75%;
+    margin-bottom: 1px;
+    text-transform: uppercase;
+    color: #555;
+}
+.meta-item {
+  margin-bottom: 2rem;
+  color: #2a2a2a;
+}
+
+main {
+    margin: 10rem auto 0;
+}
+
+hr {
+    margin: 3rem auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn {
+  @include body;
+  @media (min-width: 521px) {
+    @include body($responsive-medium);
+  }
+  @media (min-width: 992px) {
+    @include body($responsive-large);
+  }
+}
+
+.navbar {
+  padding: 1.5rem 0;
+
+  &-brand {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #2a2a2a;
+    transition: all .3s;
+
+    &:hover {
+      color: #000;
+    }
+  }
+
+  .nav-item {
+    margin-right: .5em;
+    margin-left: .5em;
+    a {
+      color: #555;
+      font-size: 15px;
+      transition: all .3s;
+
+      &:hover {
+        color: #2a2a2a;
+        background: #fff;
+      }
+    }
+  }
+}
+
+.hero {
+  margin: 4rem auto;
+
+  &--centered {
+    text-align: center;
+  }
+}
+.hero__title {
+  margin-bottom: 4rem;
+}
+
+.work-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #000;
+  transition: all .3s;
+
+  &:hover {
+    color: #000;
+    text-decoration: none;
+    transform: translateY(-5px);
+  }
+}
+.work-item__title {
+  margin: 1rem auto -4px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+}
+.work-item__desc {
+  font-size: 85%;
+  color: #555;
+}
+  
+.post {
+  img {
+    display: block;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  h1, h2, h3, h4, p, ul, ol, {
+    max-width: 660px;
+  }
+}
+
+.single {
+  .hero {
+    margin-bottom: 4rem;
+  }
+}
+
+.image-group {
+  text-align: center;
+
+  &--full {
+    width: 100%;
+    background: transparent;
+  }
+
+  img {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.btn {
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 0;
+  border-width: 3px;
+  padding: .7rem 1.5rem;
+}
+
+.Footer {
+  background: #000;
+  color: #fff;
+  padding: 5rem 0 8rem;
+
+  a {
+    color: #fff;
+    transition: all .3s;
+    font-size: 16px;
+
+    &:hover {
+      color: rgba(#fff, .8);
+    }
+  }
+}
+
+.content-block {
+  padding: 6rem 0;
+
+  &--light {
+    background: #fff;
+  }
+
+  &--dark {
+    background: #2a2a2a;
+    * {
+      color: #fff;
+    }
+  }
+
+  &--blue {
+    background: #E9FBFE;
+  }
+
+  &--green {
+    background: #D2F7EC;
+  }
+}
