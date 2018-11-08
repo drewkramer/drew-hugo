@@ -1,0 +1,54 @@
+{{ define "main" }}
+
+  <section class="hero">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="hero__title">{{ .Page.Title }}</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-7">
+            {{if .Params.lead }}
+            <p class="hero__lead">
+                {{ with .Params.lead }}{{.}}{{end}}
+            </p>
+            {{end}}
+        </div>
+        <div class="col-md-4 offset-md-1 offset-lg-2">
+            {{if .Params.role }}
+            <div class="meta-item">
+                <p class="meta">Role</p>
+                <p>{{ with .Params.role }}{{.}}{{end}}</p>
+            </div>
+            {{end}}
+            {{if .Params.tags }}
+            <div class="meta-item">
+                <p class="meta">Tags</p>
+                <p>{{ with .Params.tags }}{{.}}{{end}}</p>
+            </div>
+            {{end}}
+            {{if .Params.website_url }}
+            <div class="meta-item">
+              {{ with .Params.website_url }}
+                <a href="{{.}}" target="_blank" class="btn btn-outline-dark">Visit Website</a>
+              {{end}}
+            </div>
+            {{end}}
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="post">
+    {{ .Content }}
+  </section>
+
+  <!-- {{if .PrevInSection }}
+  <div class="post-footer-navigation">
+      {{ with .PrevInSection }}
+        <a class="post-footer-navigation__link" href="{{.Permalink}}"><i class="icon-arrow-thin-left"></i> {{.Title}}</a>
+      {{ end }}
+  </div>
+  {{end}} -->
+
+{{ end }}
