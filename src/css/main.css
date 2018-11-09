@@ -380,6 +380,38 @@ img {
 .single .hero {
   margin-bottom: 4rem; }
 
+.post-footer-navigation {
+  text-align: center; }
+
+.post-footer-navigation__link {
+  position: relative;
+  margin: 1rem 0 6rem;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #2a2a2a;
+  padding: 1rem; }
+  .post-footer-navigation__link span {
+    display: inline-block;
+    transition: all 0.2s cubic-bezier(0.65, 0.05, 0.36, 1); }
+  .post-footer-navigation__link:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: all 0.2s cubic-bezier(0.65, 0.05, 0.36, 1);
+    height: 2px;
+    background: #2a2a2a; }
+  .post-footer-navigation__link:hover {
+    text-decoration: none;
+    color: #2a2a2a; }
+    .post-footer-navigation__link:hover span {
+      transform: translateY(3px); }
+  .post-footer-navigation__link:hover:before {
+    left: 20%;
+    right: 20%; }
+
 .image-group {
   text-align: center; }
   .image-group--full {

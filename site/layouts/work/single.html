@@ -40,15 +40,17 @@
     </div>
   </section>
   <section class="post">
-    {{ .Content }}
+    <div class="container">
+      {{ .Content }}
+    </div>
   </section>
 
-  <!-- {{if .PrevInSection }}
+  {{if .PrevInSection }}
   <div class="post-footer-navigation">
       {{ with .PrevInSection }}
-        <a class="post-footer-navigation__link" href="{{.Permalink}}"><i class="icon-arrow-thin-left"></i> {{.Title}}</a>
+      <a class="post-footer-navigation__link" href="{{.Permalink}}"><span>{{.Title}}</span></a>
       {{ end }}
   </div>
-  {{end}} -->
+  {{end}}
 
 {{ end }}

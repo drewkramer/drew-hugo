@@ -8,4 +8,4 @@ layout: "page-default"
 draft: false
 ---
 
-Hello there! If you'd like to get in touch with me, feel free to shoot an email to me at drew@drewkramer.co. 
+Hello there! If you'd like to get in touch with me, feel free to shoot an email to me at [hello@drewkramer.co](mailto:hello@drewkramer.co). 
