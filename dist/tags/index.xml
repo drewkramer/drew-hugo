@@ -12,29 +12,11 @@
     
     
     <item>
-      <title>Blog</title>
-      <link>/tags/blog/</link>
+      <title></title>
+      <link>/tags/</link>
       <pubDate>Sun, 08 Jul 2018 00:03:35 -0400</pubDate>
       
-      <guid>/tags/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Branding</title>
-      <link>/tags/branding/</link>
-      <pubDate>Sun, 08 Jul 2018 00:03:35 -0400</pubDate>
-      
-      <guid>/tags/branding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Website</title>
-      <link>/tags/website/</link>
-      <pubDate>Sun, 08 Jul 2018 00:03:35 -0400</pubDate>
-      
-      <guid>/tags/website/</guid>
+      <guid>/tags/</guid>
       <description></description>
     </item>
     

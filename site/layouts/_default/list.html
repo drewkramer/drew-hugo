@@ -1,11 +1,25 @@
 {{ define "main" }}
 
-{{ if where .Data.Pages "Section" "work" }}
+    {{ if where .Data.Pages "Section" "work" }}
 
-    {{ range where .Data.Pages "Section" "work" }}
-   
+    <section class="work post">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>{{ .Title }}</h1>
+                    <p>{{ .Content }}</p>
+                </div>
+            </div>
+            <div class="row">
+            {{ range where .Data.Pages "Section" "work" }}
+
+                {{ partial "work-item.html" . }}
+        
+            {{ end }}
+            </div>
+        </div>
+    </section>
+
     {{ end }}
-
-{{end}}
 
 {{ end }}

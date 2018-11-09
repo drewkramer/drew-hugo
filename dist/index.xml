@@ -26,7 +26,8 @@
       <pubDate>Sun, 08 Jul 2018 11:22:30 -0400</pubDate>
       
       <guid>/about/</guid>
-      <description>   Sup! My name is Drew. I am a passionate designer and front-end developer from Los Angeles, CA. </description>
+      <description>Hello
+I&#39;m Drew. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
     <item>
@@ -35,8 +36,7 @@
       <pubDate>Sun, 08 Jul 2018 01:01:10 -0400</pubDate>
       
       <guid>/contact/</guid>
-      <description>Hello there! If you&#39;d like to get in touch with me, feel free to shoot an email to me at drew@drewkramer.co. Or use the form below!
-Don’t fill this out if you&#39;re human:  First Name   Last Name    Email   Message    Send Message     </description>
+      <description>Hello there! If you&amp;rsquo;d like to get in touch with me, feel free to shoot an email to me at drew@drewkramer.co.</description>
     </item>
     
     <item>
@@ -54,8 +54,7 @@ Don’t fill this out if you&#39;re human:  First Name   Last Name    Email   Me
       <pubDate>Sun, 08 Jul 2018 00:03:35 -0400</pubDate>
       
       <guid>/work/pennys-ice-cream/</guid>
-      <description>Aute ipsum fugiat velit Lorem magna aliqua esse dolore amet commodo proident tempor. Irure eu duis commodo irure adipisicing dolor consectetur dolor magna aliqua laborum. Ipsum officia esse occaecat anim cupidatat aliqua dolor adipisicing do aute labore tempor velit laboris aute ex. Cillum officia magna non do ullamco ad id et incididunt nisi sint commodo pariatur. Officia reprehenderit irure quis tempor fugiat et fugiat anim cillum.
-    This is a subheading Aute ipsum fugiat velit Lorem magna aliqua esse dolore amet commodo proident tempor.</description>
+      <description>Heading Number Three Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
   </channel>

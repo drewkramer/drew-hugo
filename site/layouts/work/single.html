@@ -22,10 +22,10 @@
                 <p>{{ with .Params.role }}{{.}}{{end}}</p>
             </div>
             {{end}}
-            {{if .Params.tags }}
+            {{if .Params.work_category }}
             <div class="meta-item">
                 <p class="meta">Tags</p>
-                <p>{{ with .Params.tags }}{{.}}{{end}}</p>
+                <p>{{ with .Params.work_category }}{{.}}{{end}}</p>
             </div>
             {{end}}
             {{if .Params.website_url }}

@@ -1,0 +1,11 @@
+<div class="col-md-6">
+    <a href="{{.Permalink}}" class="work__item">
+        <div class="work__image">
+            <img 
+            data-src="{{ .Site.Params.cloudinary_url }}{{ .Params.post_thumbnail }}" 
+            alt="{{.Params.post_thumbnail_alt}}"
+            class="cld-responsive">
+        </div>
+        <h3 class="work__item-title">{{.Title}}</h3>
+    </a>
+</div>
