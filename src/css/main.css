@@ -422,6 +422,7 @@ img {
     background: transparent; }
   .image-group .image {
     width: 100%;
+    max-width: 100%;
     padding-top: 2rem;
     padding-bottom: 2rem;
     margin-top: 4rem;
@@ -431,6 +432,7 @@ img {
     margin-right: auto;
     margin-left: auto; }
   .image-group img {
+    width: 100%;
     max-width: 1200px;
     margin-top: 0;
     margin-bottom: 0; }
