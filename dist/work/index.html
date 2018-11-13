@@ -30,7 +30,31 @@
     <link rel="stylesheet" href="css/main.css"/>
     
     <link rel="alternate" type="application/rss" href="/work/index.xml" title="Drew Kramer" />
-    </head>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+    WebFontConfig = {
+        google: {
+            families: ['Karla:400,700']
+        }
+    };
+    WebFont.load({
+        custom: {
+            families: ['butlerlight']
+        }
+    });
+</script>
+
+<style>
+    @font-face {
+        font-family: 'butlerlight';
+        src: url('https://res.cloudinary.com/drewkramer/raw/upload/v1541645654/drewkramer/butler_light-webfont.woff2') format('woff2'),
+            url('https://res.cloudinary.com/drewkramer/raw/upload/v1541631923/drewkramer/butler_light-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+</style>
+
+  </head>
   <body 
     
     
@@ -99,7 +123,7 @@
     <a href="/work/waltz-vineyards/" class="work__item">
         <div class="work__image">
             <img 
-            data-src="https://res.cloudinary.com/drewkramer/image/upload/v1542060582/drewkramer/waltzvineyards-feature-reg.jpg" 
+            data-src="https://res.cloudinary.com/drewkramer/image/upload/w_auto,dpr_auto,c_scale,f_auto,q_auto//v1542060582/drewkramer/waltzvineyards-feature-reg.jpg" 
             alt="Waltz Vineyards"
             class="cld-responsive">
         </div>
@@ -113,7 +137,7 @@
     <a href="/work/bring-on-the-bash/" class="work__item">
         <div class="work__image">
             <img 
-            data-src="https://res.cloudinary.com/drewkramer/image/upload/v1542060582/drewkramer/bringonthebash-feature-reg.jpg" 
+            data-src="https://res.cloudinary.com/drewkramer/image/upload/w_auto,dpr_auto,c_scale,f_auto,q_auto//v1542060582/drewkramer/bringonthebash-feature-reg.jpg" 
             alt="Bring on the bash"
             class="cld-responsive">
         </div>
@@ -127,7 +151,7 @@
     <a href="/work/a-simple-palate/" class="work__item">
         <div class="work__image">
             <img 
-            data-src="https://res.cloudinary.com/drewkramer/image/upload/v1542060582/drewkramer/asimplepalate-feature-reg.jpg" 
+            data-src="https://res.cloudinary.com/drewkramer/image/upload/w_auto,dpr_auto,c_scale,f_auto,q_auto//v1542060582/drewkramer/asimplepalate-feature-reg.jpg" 
             alt="A Simple Palate Blog"
             class="cld-responsive">
         </div>
@@ -141,7 +165,7 @@
     <a href="/work/pennys-ice-cream/" class="work__item">
         <div class="work__image">
             <img 
-            data-src="https://res.cloudinary.com/drewkramer/image/upload/v1542075034/drewkramer/pennysicecream-feature-reg.jpg" 
+            data-src="https://res.cloudinary.com/drewkramer/image/upload/w_auto,dpr_auto,c_scale,f_auto,q_auto//v1542075034/drewkramer/pennysicecream-feature-reg.jpg" 
             alt="Pennys Ice Cream"
             class="cld-responsive">
         </div>
@@ -189,8 +213,6 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
-    <script src="/app.js"></script>
-
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/cloudinary-core/2.5.0/cloudinary-core-shrinkwrap.min.js"></script>
 
@@ -200,6 +222,9 @@
         });
         cl.responsive();
     </script>
+    
+    <script src="/app.js"></script>
+
 
 </body>
 </html>

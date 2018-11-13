@@ -29,7 +29,31 @@
     
     <link rel="stylesheet" href="css/main.css"/>
     
-    </head>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+    WebFontConfig = {
+        google: {
+            families: ['Karla:400,700']
+        }
+    };
+    WebFont.load({
+        custom: {
+            families: ['butlerlight']
+        }
+    });
+</script>
+
+<style>
+    @font-face {
+        font-family: 'butlerlight';
+        src: url('https://res.cloudinary.com/drewkramer/raw/upload/v1541645654/drewkramer/butler_light-webfont.woff2') format('woff2'),
+            url('https://res.cloudinary.com/drewkramer/raw/upload/v1541631923/drewkramer/butler_light-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+</style>
+
+  </head>
   <body 
     style="background: #fff"
     
@@ -178,8 +202,6 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
-    <script src="/app.js"></script>
-
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/cloudinary-core/2.5.0/cloudinary-core-shrinkwrap.min.js"></script>
 
@@ -189,6 +211,9 @@
         });
         cl.responsive();
     </script>
+    
+    <script src="/app.js"></script>
+
 
 </body>
 </html>

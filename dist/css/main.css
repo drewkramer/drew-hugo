@@ -1,5 +1,4 @@
 @import url("https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css");
-@import url("https://fonts.googleapis.com/css?family=Karla:400,700");
 @-webkit-keyframes fadeInDown {
   0% {
     opacity: 0;
@@ -36,16 +35,6 @@
 @keyframes fadeIn {
   0% {
     opacity: 0; } }
-@font-face {
-  font-family: 'butlerlight';
-  src: url("https://res.cloudinary.com/drewkramer/raw/upload/v1541645654/drewkramer/butler_light-webfont.woff2") format("woff2"), url("https://res.cloudinary.com/drewkramer/raw/upload/v1541631923/drewkramer/butler_light-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'butlerregular';
-  src: url("https://res.cloudinary.com/drewkramer/raw/upload/v1541645654/drewkramer/butler_regular-webfont.woff2") format("woff2"), url("https://res.cloudinary.com/drewkramer/raw/upload/v1541645654/drewkramer/butler_regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
 .mobile-nav {
   display: none;
   position: fixed;
