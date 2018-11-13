@@ -129,74 +129,74 @@
     .grid-3 {
       grid-template-columns: 1fr 1fr 1fr; } }
 h1 {
-  font-size: 3.3em;
+  font-size: 3em;
   line-height: 1.25;
   margin-bottom: 0.425em; }
 h2 {
-  font-size: 2.75em;
+  font-size: 2.5em;
   line-height: 1.2;
   margin-bottom: 0.51em; }
 h3 {
-  font-size: 2.2em;
+  font-size: 2em;
   line-height: 1.125;
   margin-bottom: 0.6375em; }
 h4 {
-  font-size: 1.65em;
-  line-height: 1.65em;
+  font-size: 1.5em;
+  line-height: 1.5em;
   margin-bottom: 0.85em; }
 h5 {
-  font-size: 1.375em;
-  line-height: 1.65em;
+  font-size: 1.25em;
+  line-height: 1.5em;
   margin-bottom: 1.02em; }
 h6 {
-  font-size: 1.1em;
-  line-height: 1.65em;
+  font-size: 1em;
+  line-height: 1.5em;
   margin-bottom: 1.275em; }
 body {
-  font-size: 1.1em;
+  font-size: 1em;
   line-height: 1.5; }
 p,
 ol,
 ul,
 pre,
 .btn {
-  font-size: 1.1em;
+  font-size: 1em;
   line-height: 1.5;
   margin-bottom: 1.275em;
   letter-spacing: -0.2px; }
 @media (min-width: 521px) {
   h1 {
-    font-size: 4.6em;
+    font-size: 4em;
     line-height: 1.125;
     margin-bottom: 0.31875em; }
 
   h2 {
-    font-size: 3.22em;
+    font-size: 2.8em;
     line-height: 1.0714285714;
     margin-bottom: 0.4553571429em; }
 
   h3 {
-    font-size: 2.415em;
+    font-size: 2.1em;
     line-height: 1.0714285714;
     margin-bottom: 0.6071428571em; }
 
   h4 {
-    font-size: 1.725em;
-    line-height: 1.725em;
+    font-size: 1.5em;
+    line-height: 1.5em;
     margin-bottom: 0.85em; }
 
   h5 {
-    font-size: 1.4375em;
-    line-height: 1.725em;
+    font-size: 1.25em;
+    line-height: 1.5em;
     margin-bottom: 1.02em; }
 
   h6 {
-    font-size: 1.15em;
-    line-height: 1.725em;
+    font-size: 1em;
+    line-height: 1.5em;
     margin-bottom: 1.275em; }
 
   body {
-    font-size: 1.15em;
+    font-size: 1em;
     line-height: 1.5; }
 
   p,
@@ -204,43 +204,43 @@ pre,
   ul,
   pre,
   .btn {
-    font-size: 1.15em;
+    font-size: 1em;
     line-height: 1.5;
     margin-bottom: 1.275em;
     letter-spacing: -0.2px; } }
 @media (min-width: 992px) {
   h1 {
-    font-size: 5.76em;
-    line-height: 1.1666666667;
-    margin-bottom: 0.2833333333em; }
+    font-size: 5.824em;
+    line-height: 1.0769230769;
+    margin-bottom: 0.2615384615em; }
 
   h2 {
     font-size: 3.36em;
-    line-height: 1.1428571429;
-    margin-bottom: 0.4857142857em; }
+    line-height: 1.0666666667;
+    margin-bottom: 0.4533333333em; }
 
   h3 {
-    font-size: 2.52em;
-    line-height: 1.1428571429;
-    margin-bottom: 0.6476190476em; }
+    font-size: 2.464em;
+    line-height: 1.0909090909;
+    margin-bottom: 0.6181818182em; }
 
   h4 {
-    font-size: 1.8em;
-    line-height: 1.92em;
+    font-size: 1.68em;
+    line-height: 1.792em;
     margin-bottom: 0.9066666667em; }
 
   h5 {
-    font-size: 1.5em;
-    line-height: 1.92em;
+    font-size: 1.4em;
+    line-height: 1.792em;
     margin-bottom: 1.088em; }
 
   h6 {
-    font-size: 1.2em;
-    line-height: 1.92em;
+    font-size: 1.12em;
+    line-height: 1.792em;
     margin-bottom: 1.36em; }
 
   body {
-    font-size: 1.2em;
+    font-size: 1.12em;
     line-height: 1.6; }
 
   p,
@@ -248,7 +248,7 @@ pre,
   ul,
   pre,
   .btn {
-    font-size: 1.2em;
+    font-size: 1.12em;
     line-height: 1.6;
     margin-bottom: 1.36em;
     letter-spacing: -0.2px; } }
@@ -305,16 +305,19 @@ img {
   max-width: 100%;
   height: auto; }
 .btn body {
-  font-size: 1.1em;
+  font-size: 1em;
   line-height: 1.5; }
 @media (min-width: 521px) {
   .btn body {
-    font-size: 1.15em;
+    font-size: 1em;
     line-height: 1.5; } }
 @media (min-width: 992px) {
   .btn body {
-    font-size: 1.2em;
+    font-size: 1.12em;
     line-height: 1.6; } }
+.space {
+  height: 48px;
+  height: 3rem; }
 .navbar {
   padding: 24px 15px 0;
   padding: 1.5rem 15px 0; }
@@ -441,9 +444,24 @@ img {
 .image-group--full {
     width: 100%;
     background: transparent; }
-.image-group img {
+.image-group .image {
+    width: 100%;
+    padding-top: 32px;
+    padding-top: 2rem;
+    padding-bottom: 32px;
+    padding-bottom: 2rem;
+    margin-top: 64px;
+    margin-top: 4rem;
+    margin-bottom: 64px;
+    margin-bottom: 4rem; }
+.image-group .image,
+  .image-group img {
     margin-right: auto;
     margin-left: auto; }
+.image-group img {
+    max-width: 1200px;
+    margin-top: 0;
+    margin-bottom: 0; }
 .btn {
   font-size: 1em;
   font-weight: bold;

@@ -15,7 +15,7 @@ $font-headings: "butlerlight", Georgia, serif;
 $font-mono: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;
 
 $shevy: (
-  base-font-size: 1.1em,
+  base-font-size: 1em,
   base-font-scale: (3, 2.5, 2, 1.5, 1.25, 1),
   base-line-height: 1.5,
   margin-bottom: true,
@@ -23,7 +23,7 @@ $shevy: (
   proximity-factor: .85
 );
 $responsive-medium: (
-  base-font-size: 1.15em,
+  base-font-size: 1em,
   base-font-scale: (4, 2.8, 2.1, 1.5, 1.25, 1),
   base-line-height: 1.5,
   margin-bottom: true,
@@ -31,9 +31,9 @@ $responsive-medium: (
   proximity-factor: .85
 );
 $responsive-large: (
-  base-font-size: 1.2em,
+  base-font-size: 1.12em,
   base-line-height: 1.6,
-  base-font-scale: (4.8, 2.8, 2.1, 1.5, 1.25, 1),
+  base-font-scale: (5.2, 3, 2.2, 1.5, 1.25, 1),
   margin-bottom: true,
   proximity: true,
   proximity-factor: .85
@@ -138,6 +138,10 @@ img {
   @media (min-width: 992px) {
     @include body($responsive-large);
   }
+}
+
+.space {
+  height: 3rem;
 }
 
 .navbar {
@@ -305,9 +309,23 @@ img {
     background: transparent;
   }
 
+  .image {
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+  
+  .image,
   img {
     margin-right: auto;
     margin-left: auto;
+  }
+  img {
+    max-width: 1200px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
 

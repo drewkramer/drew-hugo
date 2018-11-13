@@ -2,12 +2,13 @@
 
     {{ if where .Data.Pages "Section" "work" }}
 
-    <section class="work post">
+    <section class="work">
         <div class="container">
             <div class="row">
                 <div class="col">
                     <h1>{{ .Title }}</h1>
-                    <p>{{ .Content }}</p>
+                    {{ .Content }}
+                    <div class="space"></div>
                 </div>
             </div>
             <div class="row">
