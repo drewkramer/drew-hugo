@@ -40,3 +40,4 @@
     {{if .Params.background_color }}style="background: {{ .Params.background_color }}"{{end}}
     {{if .Params.invert }}class="inverse"{{end}}
     >
+    {{ partial "colorbar.html" . }}

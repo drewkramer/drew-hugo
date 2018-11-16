@@ -5,7 +5,7 @@
   left: 0;
   bottom: 0;
   right: 0;
-  background: #fff;
+  background: #2a2a2a;
   animation: fadeInDown .5s;
   z-index: 999;
   
@@ -18,7 +18,7 @@
     padding-left: 2rem;
 
     & > a {
-      color: rgba(#000, .6);
+      color: rgba(white, 1);
       display: block;
       margin: 0 30px .7rem;
       font-size: 1.5rem;
@@ -28,7 +28,7 @@
 
       &:hover {
         text-decoration: none;
-        color: rgba(#000, 1);
+        color: rgba(white, 1);
       }
     }
   }
@@ -45,7 +45,7 @@
       height: 30px;
       
       path {
-        fill: rgba(black, .64);
+        fill: rgba(white, .7);
       }
     }
   }
@@ -67,7 +67,7 @@
   .line {
     width: 100%;
     height: 2px;  
-    background: rgba(0,0,0,.5);
+    background: rgba(black,.7);
   }
 }
 
