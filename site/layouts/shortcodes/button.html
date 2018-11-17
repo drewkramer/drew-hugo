@@ -1,0 +1,4 @@
+<a 
+href='{{ .Get "src" }}' 
+target='{{ if .Get "target"}}{{ .Get "target"}}{{end}}' 
+class="btn btn-outline-dark">{{ .Get "text" }}</a>
