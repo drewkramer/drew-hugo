@@ -8,11 +8,12 @@ role: "Designer / Developer"
 post_thumbnail: "/v1542060582/drewkramer/waltzvineyards-feature-reg.jpg"
 post_thumbnail_alt: "Waltz Vineyards"
 website_url: "https://www.waltzvineyards.com"
-lead: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+lead: "Waltz Vineyards is a local winery in the Lancaster, PA area that makes high-quality bordeoux-style wine; which is super hard to do in this climate region of the US. They break the stigma that great wine can't be made in Pennsylvania and are constantly shocking people with their product. I had the privilege of working with them to redesign their website and online shopping experience."
 colorbar: "#b52c00"
 background_color: ""
 invert:
 type: "work"
+weight: 15
 draft: false
 ---
 
@@ -21,4 +22,4 @@ draft: false
 {{< cld src="v1542060584/drewkramer/waltzvineyards-website-2.jpg" alt="Waltz vineyards mobile mockups" background="#e9e8e0" >}}
 {{< /image-full>}}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The site was designed in Figma, and built from the ground up in Wordpress. They use a third party for their online shopping cart, so I worked with their team to implement new design changes.

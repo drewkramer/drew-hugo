@@ -9,13 +9,12 @@ post_thumbnail_overlay:
 website_url: "https://www.pennysicecreamtruck.com"
 work_category: "Website, Branding"
 role: "Designer / Developer"
-lead: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+lead: "Penny's Ice Cream is a local ice cream company owned and run by my brother-in-law and sister-in-law. They started with an ice cream truck a few years ago and now have a few scoop shop locations around Lancaster, PA serving gourmet ice cream and treats. They have a unique, fun aesthetic that I tried to represent through their branding."
 colorbar: "#f27563"
 background_color: ""
 invert:
 type: "work"
+weight: 25
 draft: false
 ---
 
@@ -23,8 +22,6 @@ draft: false
 {{< cld src="v1542487889/drewkramer/pennysicecream/pennysicecream_home.jpg" alt="Pennys Ice Cream website home" >}}
 {{< cld src="v1542075034/drewkramer/pennysicecream-website-2.jpg" alt="Pennys Ice Cream Phone Mockups" background="#e8f7f4" >}}
 {{< /image-full >}}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 {{< image-full >}}
 {{< cld src="v1542077290/drewkramer/pennysicecream-branding-1.jpg" alt="Pennys Ice Cream Branding" >}}

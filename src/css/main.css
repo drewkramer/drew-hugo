@@ -1,4 +1,10 @@
 @import url("https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css?family=Karla:400,700");
+@font-face {
+  font-family: 'butlerlight';
+  src: url("https://res.cloudinary.com/drewkramer/raw/upload/v1541645654/drewkramer/butler_light-webfont.woff2") format("woff2"), url("https://res.cloudinary.com/drewkramer/raw/upload/v1541631923/drewkramer/butler_light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
 @keyframes fadeInDown {
   0% {
     opacity: 0;
@@ -82,6 +88,39 @@
   @media (min-width: 800px) {
     .grid-3 {
       grid-template-columns: 1fr 1fr 1fr; } }
+
+.inverse {
+  background: black;
+  color: white; }
+  .inverse h1,
+  .inverse h2,
+  .inverse h3,
+  .inverse h4,
+  .inverse blockquote,
+  .inverse .meta-item p,
+  .inverse .navbar-brand {
+    color: white; }
+  .inverse p,
+  .inverse ul,
+  .inverse ol,
+  .inverse figcaption {
+    color: rgba(255, 255, 255, 0.8); }
+  .inverse p.meta {
+    color: rgba(255, 255, 255, 0.7); }
+  .inverse .navbar .nav-item a {
+    color: rgba(255, 255, 255, 0.8); }
+  .inverse .navbar-brand:hover {
+    color: #fff; }
+  .inverse .Post-nav__link {
+    color: rgba(255, 255, 255, 0.8); }
+    .inverse .Post-nav__link:hover {
+      color: white; }
+    .inverse .Post-nav__link:before {
+      background: rgba(255, 255, 255, 0.8); }
+    .inverse .Post-nav__link:hover:before {
+      background: white; }
+  .inverse .mobile-nav-toggle .line {
+    background: rgba(255, 255, 255, 0.7); }
 
 h1 {
   font-size: 54px;
@@ -282,6 +321,11 @@ img {
   max-width: 100%;
   height: auto; }
 
+figcaption {
+  margin: 1rem auto;
+  padding: 0 20px;
+  font-size: 80%; }
+
 .btn body {
   font-size: 18px;
   line-height: 1.5; }
@@ -349,9 +393,9 @@ img {
 
 .work__item-title {
   font-family: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  margin: 1rem auto 0;
+  margin: .5rem auto 0;
   text-transform: uppercase;
-  font-size: .9em;
+  font-size: 80%;
   letter-spacing: 2.2px; }
 
 .work__image {
@@ -384,24 +428,30 @@ img {
 .single .hero {
   margin-bottom: 4rem; }
 
-.post-footer-navigation {
+.Post-nav {
   text-align: center; }
 
-.post-footer-navigation__link {
+.Post-nav__label {
+  font-size: 65%;
+  letter-spacing: 2px;
+  display: block;
+  text-transform: uppercase; }
+
+.Post-nav__link {
   position: relative;
   margin: .5rem 0 3.5rem;
   display: inline-block;
-  text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 0;
   color: #2a2a2a;
-  padding: 1rem; }
+  padding: 1rem;
+  font-weight: bolder; }
   @media (min-width: 600px) {
-    .post-footer-navigation__link {
+    .Post-nav__link {
       margin: 1rem 0 6rem; } }
-  .post-footer-navigation__link span {
+  .Post-nav__link span {
     display: inline-block;
     transition: all 0.2s cubic-bezier(0.65, 0.05, 0.36, 1); }
-  .post-footer-navigation__link:before {
+  .Post-nav__link:before {
     content: "";
     position: absolute;
     left: 0;
@@ -410,12 +460,12 @@ img {
     transition: all 0.2s cubic-bezier(0.65, 0.05, 0.36, 1);
     height: 2px;
     background: #2a2a2a; }
-  .post-footer-navigation__link:hover {
+  .Post-nav__link:hover {
     text-decoration: none;
     color: #2a2a2a; }
-    .post-footer-navigation__link:hover span {
+    .Post-nav__link:hover span {
       transform: translateY(3px); }
-  .post-footer-navigation__link:hover:before {
+  .Post-nav__link:hover:before {
     left: 20%;
     right: 20%; }
 
@@ -433,10 +483,8 @@ img {
     margin-bottom: 2rem; }
     @media (min-width: 600px) {
       .image-group .image {
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        margin-top: 4rem;
-        margin-bottom: 4rem; } }
+        margin-top: 3rem;
+        margin-bottom: 3rem; } }
   .image-group .image,
   .image-group img {
     margin-right: auto;

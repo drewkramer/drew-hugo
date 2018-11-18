@@ -8,18 +8,15 @@ role: "Designer / Developer"
 post_thumbnail: "/v1542060582/drewkramer/bringonthebash-feature-reg.jpg"
 post_thumbnail_alt: "Bring on the bash"
 website_url: "http://www.bringonthebash.com"
-lead: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+lead: "Taylor Courtney is a local DJ who really knows what he's doing. We met a while back and he asked me to help him create a unique brand that would help him stand out among the typical DJ crowd."
 colorbar: "#f68d56"
 background_color: ""
 invert:
 type: "work"
+weight: 30
 draft: false
 ---
 
 {{< image-full >}}
 {{< cld src="v1542487450/drewkramer/bringonthebash/bringonthebash_home.jpg" alt="Bring on the Bash Website Home" >}}
 {{< /image-full>}}
-
-### Heading Three
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.

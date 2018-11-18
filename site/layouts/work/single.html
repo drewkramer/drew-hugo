@@ -46,9 +46,10 @@
   </section>
 
   {{if .PrevInSection }}
-  <div class="post-footer-navigation">
+  <div class="Post-nav">
       {{ with .PrevInSection }}
-      <a class="post-footer-navigation__link" href="{{.Permalink}}"><span>{{.Title}}</span></a>
+      <span class="Post-nav__label">Previous</span>
+      <a class="Post-nav__link" href="{{.Permalink}}"><span>{{.Title}}</span></a>
       {{ end }}
   </div>
   {{end}}

@@ -33,8 +33,6 @@
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
 
-    {{ partial "fontload.html" . }}
-
   </head>
   <body 
     {{if .Params.background_color }}style="background: {{ .Params.background_color }}"{{end}}

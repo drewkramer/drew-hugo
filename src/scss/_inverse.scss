@@ -1,0 +1,56 @@
+.inverse {
+    background: black;
+    color: white;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    blockquote,
+    .meta-item p,
+    .navbar-brand {
+        color: white;
+    }
+
+    p,
+    ul,
+    ol,
+    figcaption {
+        color: rgba(white, .8);
+    }
+
+    p.meta {
+        color: rgba(white, .7);
+    }
+
+    .navbar .nav-item a {
+        color: rgba(white, .8);
+    }
+
+    .navbar-brand:hover {
+        color: #fff;
+    }
+
+    .Post-nav__link {
+        color: rgba(white, .8);
+
+        &:hover {
+            color: white;
+        }
+
+        &:before {
+            background: rgba(white, .8);
+        }
+
+        &:hover:before {
+            background: white;
+        }
+    }
+
+    .mobile-nav-toggle {
+        .line { 
+            background: rgba(white,.7);
+        }
+    }
+
+}

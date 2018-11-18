@@ -16,11 +16,12 @@ colorbar: "#0091EA"
 background_color: ""
 invert:
 type: "work"
+weight: 35
 draft: false
 ---
+
+
 
 {{< image-full >}}
 {{< cld src="v1542488930/drewkramer/allrd/allrd_home.jpg" alt="All renovation and design homepage" >}}
 {{< /image-full >}}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

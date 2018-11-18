@@ -12,21 +12,12 @@
     
     
     <item>
-      <title>All Renovation &amp; Design</title>
-      <link>/work/all-renovation-design/</link>
-      <pubDate>Sat, 17 Nov 2018 16:09:16 -0500</pubDate>
+      <title>A Simple Palate</title>
+      <link>/work/a-simple-palate/</link>
+      <pubDate>Sun, 08 Jul 2018 00:03:35 -0400</pubDate>
       
-      <guid>/work/all-renovation-design/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
-    </item>
-    
-    <item>
-      <title>Juice Co.</title>
-      <link>/work/juice-co/</link>
-      <pubDate>Sat, 17 Nov 2018 15:54:15 -0500</pubDate>
-      
-      <guid>/work/juice-co/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+      <guid>/work/a-simple-palate/</guid>
+      <description>    </description>
     </item>
     
     <item>
@@ -35,7 +26,8 @@
       <pubDate>Sat, 17 Nov 2018 13:43:07 -0500</pubDate>
       
       <guid>/work/minimal-calendar/</guid>
-      <description>Heading Number Three Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+      <description>Welcome Screen    App - Year View    App - Month View    Add/Edit Event     
+View original app &amp;rarr;</description>
     </item>
     
     <item>
@@ -44,25 +36,25 @@
       <pubDate>Mon, 12 Nov 2018 17:22:10 -0500</pubDate>
       
       <guid>/work/waltz-vineyards/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+      <description>The site was designed in Figma, and built from the ground up in Wordpress. They use a third party for their online shopping cart, so I worked with their team to implement new design changes.</description>
     </item>
     
     <item>
-      <title>Bring on the Bash</title>
-      <link>/work/bring-on-the-bash/</link>
-      <pubDate>Mon, 12 Nov 2018 17:12:44 -0500</pubDate>
+      <title>Juice Co.</title>
+      <link>/work/juice-co/</link>
+      <pubDate>Sat, 17 Nov 2018 15:54:15 -0500</pubDate>
       
-      <guid>/work/bring-on-the-bash/</guid>
-      <description>Heading Three Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</description>
+      <guid>/work/juice-co/</guid>
+      <description>Designed in Sketch.</description>
     </item>
     
     <item>
-      <title>A Simple Palate</title>
-      <link>/work/a-simple-palate/</link>
-      <pubDate>Sun, 08 Jul 2018 00:03:35 -0400</pubDate>
+      <title>Project Management</title>
+      <link>/work/project-management-app/</link>
+      <pubDate>Sun, 18 Nov 2018 11:13:54 -0500</pubDate>
       
-      <guid>/work/a-simple-palate/</guid>
-      <description>Heading Number Three Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+      <guid>/work/project-management-app/</guid>
+      <description>User Dashboard    Prospects    Edit/Add Prospect    Convert Prospect to Project    Project Items    User Tasks    Create Report    View Report    Style Guide    Designed in Sketch.</description>
     </item>
     
     <item>
@@ -71,7 +63,43 @@
       <pubDate>Sun, 08 Jul 2018 00:03:35 -0400</pubDate>
       
       <guid>/work/pennys-ice-cream/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+      <description>       </description>
+    </item>
+    
+    <item>
+      <title>Bring on the Bash</title>
+      <link>/work/bring-on-the-bash/</link>
+      <pubDate>Mon, 12 Nov 2018 17:12:44 -0500</pubDate>
+      
+      <guid>/work/bring-on-the-bash/</guid>
+      <description>   </description>
+    </item>
+    
+    <item>
+      <title>All Renovation &amp; Design</title>
+      <link>/work/all-renovation-design/</link>
+      <pubDate>Sat, 17 Nov 2018 16:09:16 -0500</pubDate>
+      
+      <guid>/work/all-renovation-design/</guid>
+      <description>   </description>
+    </item>
+    
+    <item>
+      <title>Dev Stats Dashboard</title>
+      <link>/work/dev-stats-dashboard/</link>
+      <pubDate>Sun, 18 Nov 2018 13:44:03 -0500</pubDate>
+      
+      <guid>/work/dev-stats-dashboard/</guid>
+      <description>Designed in Sketch, developed prototype in HTML.</description>
+    </item>
+    
+    <item>
+      <title>Graphic Design</title>
+      <link>/work/graphic-design/</link>
+      <pubDate>Sun, 18 Nov 2018 11:02:57 -0500</pubDate>
+      
+      <guid>/work/graphic-design/</guid>
+      <description>      </description>
     </item>
     
   </channel>
