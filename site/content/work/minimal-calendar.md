@@ -1,10 +1,10 @@
 +++
-title = "Minimal Calendar"
+title = "Mnml Calendar"
 date = 2018-11-17T13:43:07-05:00
 description = ""
 tags = ""
 post_thumbnail = "/v1542565461/drewkramer/minimal%20calendar/mnmlcalendar_thumbnail.jpg"
-post_thumbnail_alt = "Minimal Calendar App - Welcome"
+post_thumbnail_alt = "Mnml Calendar App - Welcome"
 website_url = ""
 work_category = "Web App, Calendar"
 role = "Designer"
@@ -23,6 +23,7 @@ draft = false
 {{< cld src="v1542480152/drewkramer/minimal%20calendar/Add_Event.jpg" alt="Add Event" caption="Add/Edit Event">}}
 {{< /image-full >}}
 
+*Working Prototype*
 {{< embed src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRBVVj6RYZcFw6lviAeab2QGe%2FMNML-Calendar%3Fnode-id%3D0%253A1%26viewport%3D166%252C423%252C0.125%26scaling%3Dmin-zoom" >}}
 
-[View original app &rarr;](https://itunes.apple.com/us/app/minimal-calendar-minimal-cal/id1437198666?mt=8)
+[View original iOS app &rarr;](https://rationale-design.com/our-work/minimal-calendar/)

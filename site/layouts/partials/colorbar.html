@@ -1,1 +1,1 @@
-<div class="Colorbar" style="background: {{- .Params.colorbar -}}"></div>
+<div class="Colorbar" {{if .Params.colorbar }}style="background: {{ .Params.colorbar }}"{{end}}></div>
