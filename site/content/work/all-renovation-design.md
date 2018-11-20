@@ -7,11 +7,9 @@ post_thumbnail: "/v1542489141/drewkramer/allrd/allrd_thumbnail.jpg"
 post_thumbnail_alt: "All renovation and design"
 post_thumbnail_overlay: 
 website_url: "https://www.allrd.com/"
-work_category: "Design / Development"
-role: "Developer"
-lead: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+work_category:
+role: "Front-end Developer"
+lead: "This is a development project for a local contractor in which I was given the design mockups and developed the site for Wordpress. This site had some fun challenges such as custom post types for project case studies."
 colorbar: "#0091EA"
 background_color: ""
 invert:
@@ -19,8 +17,6 @@ type: "work"
 weight: 35
 draft: false
 ---
-
-
 
 {{< image-full >}}
 {{< cld src="v1542488930/drewkramer/allrd/allrd_home.jpg" alt="All renovation and design homepage" >}}

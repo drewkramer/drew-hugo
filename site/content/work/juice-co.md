@@ -9,7 +9,7 @@ post_thumbnail_overlay:
 website_url: ""
 work_category: "UI Design"
 role: "Designer"
-lead: "There's a local organic juice company in the local area that I thought had a really cool brand and excellent product. For fun, I wanted to redesign their current website homepage just to see what I could come up with. This design mockup is the result."
+lead: "There's an organic juice company in the local area that has a clean brand and excellent product. Just for fun, I wanted to redesign their current website homepage in a way that I believe would highlight their products and brand best."
 colorbar: "#fdc100"
 background_color: ""
 invert:

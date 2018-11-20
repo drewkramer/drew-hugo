@@ -8,7 +8,7 @@ role: "Designer / Developer"
 post_thumbnail: "/v1542060582/drewkramer/bringonthebash-feature-reg.jpg"
 post_thumbnail_alt: "Bring on the bash"
 website_url: "http://www.bringonthebash.com"
-lead: "Taylor Courtney is a local DJ who really knows what he's doing. We met a while back and he asked me to help him create a unique brand that would help him stand out among the typical DJ crowd."
+lead: "Taylor Courtney is a local DJ who really knows what he's doing. We met a while back and he asked me to help him create a unique website that would help him stand out among the typical DJ crowd. I included bold colors and geometric elements to help the personality of the brand come alive."
 colorbar: "#f68d56"
 background_color: ""
 invert:

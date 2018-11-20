@@ -1,14 +1,29 @@
-@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css');
-@import "fonts";
-@import "layout/base";
+//@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css');
+
+@import '../bootstrap/functions';
+@import '../bootstrap/variables';
+@import '../bootstrap/mixins';
+
+@import '../bootstrap/reboot';
+@import '../bootstrap/type';
+@import '../bootstrap/images';
+@import '../bootstrap/buttons';
+@import '../bootstrap/forms';
+@import '../bootstrap/grid';
+@import '../bootstrap/nav';
+@import '../bootstrap/navbar';
+@import '../bootstrap/utilities';
+
+@import 'fonts';
+@import 'base';
 @import 'animations';
 @import 'core/shevy';
 
-@import 'layout/post';
-@import "layout/footer";
-@import "layout/header";
-@import 'layout/grid';
-@import 'layout/hero';
+@import 'post';
+@import 'footer';
+@import 'header';
+@import 'grid';
+@import 'hero';
 
 @import 'inverse';
 
@@ -350,14 +365,12 @@ figcaption {
   .image {
     width: 100%;
     max-width: 100%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     
     @media(min-width: 600px) {
-      // padding-top: 2rem;
-      // padding-bottom: 2rem;
       margin-top: 3rem;
       margin-bottom: 3rem;
     }

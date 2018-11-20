@@ -3,12 +3,12 @@ title: "Graphic Design"
 date: 2018-11-18T11:02:57-05:00
 description:
 tags:
-work_category: "Assorted Design"
+work_category:
 role:
 post_thumbnail: "/v1542564393/drewkramer/pas/pas_thumbnail.jpg"
 post_thumbnail_alt:
 website_url:
-lead:
+lead: "Some assorted examples of my graphic design work accumulated over the last five years."
 colorbar:
 background_color:
 invert:
