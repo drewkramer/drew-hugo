@@ -8,6 +8,7 @@ import postcss from "gulp-postcss";
 import cssImport from "postcss-import";
 import cssnext from "postcss-cssnext";
 import cssnano from "cssnano";
+import sass from "gulp-sass";
 import BrowserSync from "browser-sync";
 import webpack from "webpack";
 import webpackConfig from "./webpack.conf";
@@ -29,6 +30,13 @@ gulp.task("server-preview", ["hugo-preview", "css", "js", "fonts"], (cb) => runS
 // Build/production tasks
 gulp.task("build", ["css", "js", "fonts"], (cb) => buildSite(cb, [], "production"));
 gulp.task("build-preview", ["css", "js", "fonts"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
+
+// Compile SASS with gulp-sass
+gulp.task("sass", () => (
+    gulp.src('./src/scss/**/*.scss')
+      .pipe(sass().on('error', sass.logError))
+      .pipe(gulp.dest('./src/css/'))
+));
 
 // Compile CSS with PostCSS
 gulp.task("css", () => (
@@ -69,6 +77,7 @@ function runServer() {
     }
   });
   gulp.watch("./src/js/**/*.js", ["js"]);
+  gulp.watch("./src/scss/**/*.scss", ["sass"]);
   gulp.watch("./src/css/**/*.css", ["css"]);
   gulp.watch("./src/fonts/**/*", ["fonts"]);
   gulp.watch("./site/**/*", ["hugo"]);
