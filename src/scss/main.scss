@@ -70,10 +70,6 @@ $responsive-large: (
   @include content($responsive-large);
 }
 
-* {
-  -webkit-font-smoothing: subpixel-antialiased;
-}
-
 body {
   font-family: $font-default;
   background: #efefef;
@@ -91,7 +87,7 @@ body {
   padding-left: 20px;
 }
 
-.hero-title {
+.Hero-title {
     line-height: .98;
     margin-bottom: 1.5rem;
 }
@@ -119,13 +115,13 @@ strong {
   color: #2a2a2a;
 }
 
-.meta {
+.Meta {
     font-size: 75%;
     margin-bottom: 1px;
     text-transform: uppercase;
     color: #555;
 }
-.meta-item {
+.Meta-item {
   margin-bottom: 2rem;
   color: #2a2a2a;
 
@@ -171,7 +167,7 @@ figcaption {
   }
 }
 
-.space {
+.Space {
   height: 3rem;
 }
 
@@ -206,8 +202,7 @@ figcaption {
   }
 }
 
-.hero {
-
+.Hero {
   margin: 1.5rem auto;
 
   @media (min-width: 600px) {
@@ -218,7 +213,8 @@ figcaption {
     text-align: center;
   }
 }
-.hero__title {
+
+.Hero__title {
   line-height: 1;
   animation: fadeInUp .5s;
   
@@ -227,11 +223,11 @@ figcaption {
   }
 }
 
-.work {
+.Work {
   padding-bottom: 4rem;
 }
 
-.work__item {
+.Work__item {
   display: block;
   text-align: center;
   margin-bottom: 2.5rem;
@@ -245,7 +241,7 @@ figcaption {
   }
 }
 
-.work__item-title {
+.Work__item-title {
   font-family: $font-default;
   margin: .5rem auto 0;
   text-transform: uppercase;
@@ -253,7 +249,7 @@ figcaption {
   letter-spacing: 2.2px;
 }
 
-.work__image {
+.Work__image {
   height: 400px;
 
   img {
@@ -263,13 +259,12 @@ figcaption {
   }
 }
 
-.work-item__desc {
+.Work-item__desc {
   font-size: 85%;
   color: #555;
 }
   
-.post {
-
+.Post {
   padding-bottom: 1.5rem;
 
   @media (min-width: 600px) {
@@ -289,12 +284,6 @@ figcaption {
   
   h1, h2, h3, h4, p, ul, ol, {
     max-width: 660px;
-  }
-}
-
-.single {
-  .hero {
-    margin-bottom: 4rem;
   }
 }
 
@@ -354,7 +343,7 @@ figcaption {
   }
 }
 
-.image-group {
+.Image-group {
   text-align: center;
 
   &--full {
@@ -362,7 +351,7 @@ figcaption {
     background: transparent;
   }
 
-  .image {
+  .Image {
     width: 100%;
     max-width: 100%;
     padding-top: .5rem;
@@ -376,7 +365,7 @@ figcaption {
     }
   }
   
-  .image,
+  .Image,
   img {
     margin-right: auto;
     margin-left: auto;
@@ -422,14 +411,14 @@ figcaption {
   }
 }
 
-.about__hero {
+.About__hero {
   position: relative;
 
   .container {
     position: relative;
   }
 
-  .about__hero-image {
+  .About__hero-image {
     margin: auto auto 3rem;
 
     @media (min-width: 992px) {
@@ -444,7 +433,7 @@ figcaption {
   }
 }
 
-.content-block {
+.Content-block {
   padding: 6rem 0;
 
   &--light {
@@ -467,7 +456,7 @@ figcaption {
   }
 }
 
-.responsive-embed {
+.Responsive-embed {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;

@@ -1,6 +1,6 @@
-<div class="image" {{ with .Get "background"}} style="background:{{.}}" {{ end }}>
+<div class="Image" {{ with .Get "background"}} style="background:{{.}}" {{ end }}>
  <img
- data-src="{{ .Site.Params.cloudinary_url }}/{{ .Get "src" }}"
+ src="{{ .Site.Params.cloudinary_url }}/{{ .Get "src" }}"
  class="cld-responsive" alt="{{ .Get "alt" }}">
  {{ if .Get "caption"}}
  <figure>

@@ -2613,7 +2613,7 @@ textarea.form-control {
   0% {
     opacity: 0; } }
 
-.mobile-nav {
+.Mobile-nav {
   display: none;
   position: fixed;
   top: 0;
@@ -2623,14 +2623,14 @@ textarea.form-control {
   background: #2a2a2a;
   animation: fadeInDown .5s;
   z-index: 999; }
-  .mobile-nav__inner {
+  .Mobile-nav__inner {
     width: 100%;
     display: flex;
     flex-direction: column;
     text-align: right;
     margin: 6rem 0 0;
     padding-left: 2rem; }
-    .mobile-nav__inner > a {
+    .Mobile-nav__inner > a {
       color: white;
       display: block;
       margin: 0 30px .7rem;
@@ -2638,22 +2638,22 @@ textarea.form-control {
       letter-spacing: .25px;
       font-weight: 400;
       transition: all .3s; }
-      .mobile-nav__inner > a:hover {
+      .Mobile-nav__inner > a:hover {
         text-decoration: none;
         color: white; }
-  .mobile-nav__close {
+  .Mobile-nav__close {
     cursor: pointer;
     position: absolute;
     top: 0;
     right: 0;
     margin: 30px; }
-    .mobile-nav__close svg {
+    .Mobile-nav__close svg {
       width: 30px;
       height: 30px; }
-      .mobile-nav__close svg path {
+      .Mobile-nav__close svg path {
         fill: rgba(255, 255, 255, 0.7); }
 
-.mobile-nav-toggle {
+.Mobile-nav-toggle {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -2661,9 +2661,9 @@ textarea.form-control {
   height: 20px;
   cursor: pointer; }
   @media (min-width: 576px) {
-    .mobile-nav-toggle {
+    .Mobile-nav-toggle {
       display: none; } }
-  .mobile-nav-toggle .line {
+  .Mobile-nav-toggle .line {
     width: 100%;
     height: 2px;
     background: rgba(0, 0, 0, 0.7); }
@@ -2835,9 +2835,6 @@ pre,
     margin-bottom: 28.56px;
     letter-spacing: -0.2px; } }
 
-* {
-  -webkit-font-smoothing: subpixel-antialiased; }
-
 body {
   font-family: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   background: #efefef;
@@ -2852,7 +2849,7 @@ body {
   padding-right: 20px;
   padding-left: 20px; }
 
-.hero-title {
+.Hero-title {
   line-height: .98;
   margin-bottom: 1.5rem; }
 
@@ -2874,16 +2871,16 @@ h4 {
 strong {
   color: #2a2a2a; }
 
-.meta {
+.Meta {
   font-size: 75%;
   margin-bottom: 1px;
   text-transform: uppercase;
   color: #555; }
 
-.meta-item {
+.Meta-item {
   margin-bottom: 2rem;
   color: #2a2a2a; }
-  .meta-item .btn {
+  .Meta-item .btn {
     margin-bottom: 0; }
 
 main {
@@ -2921,7 +2918,7 @@ figcaption {
     font-size: 21px;
     line-height: 1.6; } }
 
-.space {
+.Space {
   height: 3rem; }
 
 .navbar {
@@ -2945,71 +2942,68 @@ figcaption {
         color: #000;
         background: #fff; }
 
-.hero {
+.Hero {
   margin: 1.5rem auto; }
   @media (min-width: 600px) {
-    .hero {
+    .Hero {
       margin: 4rem auto; } }
-  .hero--centered {
+  .Hero--centered {
     text-align: center; }
 
-.hero__title {
+.Hero__title {
   line-height: 1;
   animation: fadeInUp .5s; }
   @media (min-width: 768px) {
-    .hero__title {
+    .Hero__title {
       margin-bottom: 4rem; } }
 
-.work {
+.Work {
   padding-bottom: 4rem; }
 
-.work__item {
+.Work__item {
   display: block;
   text-align: center;
   margin-bottom: 2.5rem;
   color: #000;
   transition: all .3s; }
-  .work__item:hover {
+  .Work__item:hover {
     color: #000;
     text-decoration: none;
     transform: translateY(-5px); }
 
-.work__item-title {
+.Work__item-title {
   font-family: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   margin: .5rem auto 0;
   text-transform: uppercase;
   font-size: 80%;
   letter-spacing: 2.2px; }
 
-.work__image {
+.Work__image {
   height: 400px; }
-  .work__image img {
+  .Work__image img {
     object-fit: cover;
     width: 100%;
     height: 100%; }
 
-.work-item__desc {
+.Work-item__desc {
   font-size: 85%;
   color: #555; }
 
-.post {
+.Post {
   padding-bottom: 1.5rem; }
   @media (min-width: 600px) {
-    .post {
+    .Post {
       padding-bottom: 4rem; } }
-  .post img {
+  .Post img {
     display: block;
     margin-top: 3rem;
     margin-bottom: 3rem; }
     @media (min-width: 768px) {
-      .post img {
+      .Post img {
         margin-top: 4rem;
         margin-bottom: 4rem; } }
-  .post h1, .post h2, .post h3, .post h4, .post p, .post ul, .post ol {
+  .Post h1, .Post h2, .Post h3, .Post h4, .Post p, .Post ul, .Post ol {
     max-width: 660px; }
-
-.single .hero {
-  margin-bottom: 4rem; }
 
 .Post-nav {
   text-align: center; }
@@ -3052,12 +3046,12 @@ figcaption {
     left: 20%;
     right: 20%; }
 
-.image-group {
+.Image-group {
   text-align: center; }
-  .image-group--full {
+  .Image-group--full {
     width: 100%;
     background: transparent; }
-  .image-group .image {
+  .Image-group .Image {
     width: 100%;
     max-width: 100%;
     padding-top: .5rem;
@@ -3065,14 +3059,14 @@ figcaption {
     margin-top: 1rem;
     margin-bottom: 1rem; }
     @media (min-width: 600px) {
-      .image-group .image {
+      .Image-group .Image {
         margin-top: 3rem;
         margin-bottom: 3rem; } }
-  .image-group .image,
-  .image-group img {
+  .Image-group .Image,
+  .Image-group img {
     margin-right: auto;
     margin-left: auto; }
-  .image-group img {
+  .Image-group img {
     width: 100%;
     max-width: 1200px;
     margin-top: 0;
@@ -3101,14 +3095,14 @@ figcaption {
     .Footer a:hover {
       color: rgba(255, 255, 255, 0.8); }
 
-.about__hero {
+.About__hero {
   position: relative; }
-  .about__hero .container {
+  .About__hero .container {
     position: relative; }
-  .about__hero .about__hero-image {
+  .About__hero .About__hero-image {
     margin: auto auto 3rem; }
     @media (min-width: 992px) {
-      .about__hero .about__hero-image {
+      .About__hero .About__hero-image {
         position: absolute;
         top: 0;
         left: 0;
@@ -3117,29 +3111,29 @@ figcaption {
         max-width: 45%;
         height: auto; } }
 
-.content-block {
+.Content-block {
   padding: 6rem 0; }
-  .content-block--light {
+  .Content-block--light {
     background: #fff; }
-  .content-block--dark {
+  .Content-block--dark {
     background: #2a2a2a; }
-    .content-block--dark * {
+    .Content-block--dark * {
       color: #fff; }
-  .content-block--blue {
+  .Content-block--blue {
     background: #E9FBFE; }
-  .content-block--green {
+  .Content-block--green {
     background: #D2F7EC; }
 
-.responsive-embed {
+.Responsive-embed {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 100%;
   margin: 2rem auto; }
-  .responsive-embed iframe,
-  .responsive-embed object,
-  .responsive-embed embed {
+  .Responsive-embed iframe,
+  .Responsive-embed object,
+  .Responsive-embed embed {
     position: absolute;
     top: 0;
     left: 0;
