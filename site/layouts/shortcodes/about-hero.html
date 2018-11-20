@@ -1,0 +1,10 @@
+<section class="Post About__hero">
+    <img src="{{ .Get "image" }}" {{ if .Get "image-alt" }}alt="{{ .Get "image-alt" }}"{{end}} class="About__hero-image">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-6">
+                {{ .Inner }}
+            </div>
+        </div>
+    </div>
+</section>
