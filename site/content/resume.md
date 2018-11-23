@@ -25,22 +25,16 @@ Five years of experience in UI/UX design, front-end development, marketing strat
 **July 2014 – Present** <br>I've been working with a variety of clients for the past 4-5 years in helping them clarify their brand through branding & website design/development.
 
 #### Rockville High School
-**August 2013 – June 2014** <br>After graduating from college, I taught at Rockville HS in Rockville, MD as a technology education teacher. I taught Fundamentals of Technology to 200+ students ranging from 9th to 12th grade.
+**August 2013 – June 2014** <br>After graduating from college, I taught at Rockville HS in Rockville, MD as a technology education teacher. The content area that I was teaching was Fundamentals of Technology to 200+ students ranging from 9th to 12th grade.
 
 #### B.S.E. Technology Education
-**Millersville University – Spring 2013**
-<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+**Millersville University – Spring 2013** <br>In 2013 I obtained my Bachelors degree with a focus in teaching technology education K-12. I am a certified teacher in both PA and MD as a result. Although I did not continue to pursue this career after I finished college, the skills and concepts that I took away from my education continue to carry over into my work today. This includes skills in graphic design, understanding of systems, team building, communication, and a deep understanding of the mix of art and technology.
 
 {{% /content-block %}}
 
 {{% content-block color="blue" title="Skills" %}}
 
-**UI/UX Design**
-<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+**UI/UX Design** <br>
 
 **Front-End Web Development**
 <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut

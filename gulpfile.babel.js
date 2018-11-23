@@ -37,6 +37,7 @@ gulp.task("sass", () => (
     gulp.src('./src/scss/**/*.scss')
       .pipe(sass().on('error', sass.logError))
       .pipe(gulp.dest('./src/css/'))
+      .pipe(browserSync.stream())
 ));
 
 // Compile CSS with PostCSS

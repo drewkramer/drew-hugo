@@ -1,27 +1,27 @@
 .Mobile-nav {
   display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
+  position: absolute;
+  top: 4.25rem;
+  right: 20px;
+  width: 150px;
   background: #2a2a2a;
-  animation: fadeInDown .5s;
+  border-radius: .25rem;
+  box-shadow: 0 10px 20px rgba(black, .2);
+  animation: fadeInDown .4s;
   z-index: 999;
   
   &__inner {
     width: 100%;
     display: flex;
     flex-direction: column;
-    text-align: right;
-    margin: 6rem 0 0;
-    padding-left: 2rem;
+    text-align: left;
+    padding: 1.5rem;
 
     & > a {
       color: rgba(white, 1);
       display: block;
-      margin: 0 30px .7rem;
-      font-size: 1.5rem;
+      margin: 0 0 .5rem;
+      font-size: inherit;
       letter-spacing: .25px;
       font-weight: 400;
       transition: all .3s;
@@ -29,6 +29,10 @@
       &:hover {
         text-decoration: none;
         color: rgba(white, 1);
+      }
+
+      &:last-child {
+        margin-bottom: 0;
       }
     }
   }
@@ -53,6 +57,7 @@
 }
 
 .Mobile-nav-toggle {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -72,5 +77,5 @@
 }
 
 .nav-open {
-  overflow: hidden;
+  //overflow: hidden;
 }
