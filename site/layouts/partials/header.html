@@ -1,14 +1,12 @@
 <nav class="navbar navbar-expand-sm">
     <div class="container">
         <a class="navbar-brand" href="{{ $.Site.BaseURL }}">{{ .Site.Title }}</a>
-        <div>
-            <ul class="navbar-nav ml-auto d-none d-sm-flex">
-                {{ range .Site.Menus.main }}
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
-                </li>
-                {{ end }}
-            </ul>
+        <div class="navbar-nav ml-auto d-none d-sm-flex">
+            {{ range .Site.Menus.main }}
+            <div class="nav-item">
+                <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+            </div>
+            {{ end }}
         </div>
         <div class="Mobile-nav-toggle">
             <div class="line"></div>

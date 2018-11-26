@@ -3,7 +3,8 @@
   position: absolute;
   top: 4.25rem;
   right: 20px;
-  width: 150px;
+  width: 100%;
+  max-width: 150px;
   background: #2a2a2a;
   border-radius: .25rem;
   box-shadow: 0 10px 20px rgba(black, .2);
@@ -78,4 +79,11 @@
 
 .nav-open {
   //overflow: hidden;
+}
+
+.resume {
+  .Mobile-nav {
+    width: 100%;
+    max-width: 260px;
+  }
 }

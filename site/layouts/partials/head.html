@@ -37,5 +37,6 @@
   <body 
     {{if .Params.background_color }}style="background: {{ .Params.background_color }}"{{end}}
     {{if .Params.invert }}class="inverse"{{end}}
+    {{ if .GetPage "/resume" }}class="resume"{{end}}
     >
     {{ partial "colorbar.html" . }}

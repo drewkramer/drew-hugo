@@ -34,16 +34,53 @@ Five years of experience in UI/UX design, front-end development, marketing strat
 
 {{% content-block color="blue" title="Skills" %}}
 
-**UI/UX Design** <br>
+##### UI/UX Design 
+Experience in website, app, and dashboard design.
 
-**Front-End Web Development**
-<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
++ I use with modern design applications such as Sketch, Figma, Illustrator, and Photoshop using artboards (or screens)
++ I have experience in designing from a modular based approach that is directly applicable to web or software development which includes style guides and design frameworks.
++ I have experience designing prototypes and working with developers to implement the design.
++ I believe that UI/UX design is just as much about designing something that captivates people as it is understanding that user base and their needs.
 
-**Graphic Design**
-<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+##### Front-End Web Development
+Comfortable with designing and developing for the presentational side of the web. 
+
++ I have built many websites for Wordpress as well as static sites that run from a JAMstack server.
++ I have an advanced understanding of HTML, CSS, and an intermediate understanding of Javascript, PHP, ReactJS.
++ I am comfortable in environments using SASS, LESS, Gulp, jQuery, & Vanilla JS. I am always looking to learn more!
++ I am familiar with CSS frameworks such as Bootstrap, Foundation, and UIkit to help expedite and systematize front-end development.
++ I've also had experience working in a ColdFusion environment as well.
+
+##### Graphic Design 
+Experience designing for a variety of mediums which includes: 
+
++ Small business branding
++ Logo design
++ Email and advertising marketing
++ & more
+
+If you are interested in the work I've done to put these skills to the test, take a look at [my portfolio](/work/).
+
+{{% /content-block %}}
+
+{{% content-block color="light" title="This Site's Code Stack" %}}
+
+**Hugo**
+<br>Incredibly fast static-site builder. Perfect for prototyping and launching static projects hosted on JAMstack servers such as Netlify. 
+
+**Bootstrap**
+<br>CSS framework that makes creating layouts fast and simple. It's also easily expanded upon per each design.
+
+**SASS**
+<br>CSS on steroids. Variables, nesting, mixins, nuff said. I'm also using a Sass plugin called Shevy to create a modular typography scale. Super handy.
+
+**Cloudinary**
+<br>All media from this site is stored on Cloudinary. Serves images from their fast cdn and they have a lot of tools to make working with media easier, including serving responsive images.
+
+**Gulp + npm**
+<br>Local server development + build automation. I'm still learning the power, but these tools just make things way easier for development.
+
+**Google Fonts**
+<br>I'm using two type faces on this site, [Butler](https://fontlibrary.org/en/font/butler) and [Karla](https://fonts.google.com/specimen/Karla). Karla is a great free font from Principal Design served up by Google Fonts, which is my go-to platform for webfonts.
 
 {{% /content-block %}}
