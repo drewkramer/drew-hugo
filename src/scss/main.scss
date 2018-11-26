@@ -237,6 +237,19 @@ figcaption {
   }
 }
 
+.Home .Hero__content {
+  @media (min-width: 768px) {
+    margin-bottom: 1rem;
+  }
+  .Hero__title {
+    margin-bottom: 1rem;
+
+    @media (min-width: 768px) {
+      margin-bottom: 2rem;
+    }
+  }
+}
+
 .Work {
   padding-bottom: 4rem;
 }
