@@ -8,10 +8,10 @@
     font-style: normal;
 }
 
-// @font-face {
-//     font-family: 'butlerregular';
-//     src: url('../butler_regular-webfont.woff2') format('woff2'),
-//          url('../butler_regular-webfont.woff') format('woff');
-//     font-weight: normal;
-//     font-style: normal;
-// }
+@font-face {
+    font-family: 'butlerregular';
+    src: url('https://res.cloudinary.com/drewkramer/raw/upload/v1541645654/drewkramer/butler_regular-webfont.woff2') format('woff2'),
+         url('https://res.cloudinary.com/drewkramer/raw/upload/v1541645654/drewkramer/butler_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

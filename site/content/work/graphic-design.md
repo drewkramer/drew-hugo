@@ -18,6 +18,10 @@ draft: false
 ---
 
 {{< image-full >}}
+{{< cld src="v1543287406/drewkramer/graphicdesign/DecemberDeals18.jpg" alt="December deals">}}
+{{< cld src="v1543287406/drewkramer/graphicdesign/september_coupon_header.jpg" alt="September savings">}}
+{{< cld src="v1543287406/drewkramer/graphicdesign/milkshake-vs-malt-large.jpg" alt="Milkshake vs malt">}}
+{{< cld src="v1543287404/drewkramer/graphicdesign/StyrofoamPlasticBan-large.jpg" alt="Styrofoam banner">}}
 {{< cld src="v1542566146/drewkramer/graphicdesign/wafflecone_banner.jpg" alt="Waffle cone banner">}}
 {{< cld src="v1542566146/drewkramer/graphicdesign/coffeemakers_banner.jpg" alt="Coffee makers banner">}}
 {{< cld src="v1542566146/drewkramer/graphicdesign/mixingglasses_banner.jpg" alt="Mixing glasses banner">}}

@@ -2,9 +2,8 @@
     <a href="{{.Permalink}}" class="Work__item">
         <div class="Work__image">
             <img 
-            data-src="{{ .Site.Params.cloudinary_url }}/w_auto,dpr_auto,c_scale,f_auto,q_auto/{{ .Params.post_thumbnail }}" 
-            alt="{{.Params.post_thumbnail_alt}}"
-            class="cld-responsive">
+            src="{{ .Site.Params.cloudinary_url }}{{ .Params.post_thumbnail }}" 
+            alt="{{.Params.post_thumbnail_alt}}">
         </div>
         <h3 class="Work__item-title">{{.Title}}</h3>
     </a>

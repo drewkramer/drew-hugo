@@ -2594,6 +2594,12 @@ textarea.form-control {
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: 'butlerregular';
+  src: url("https://res.cloudinary.com/drewkramer/raw/upload/v1541645654/drewkramer/butler_regular-webfont.woff2") format("woff2"), url("https://res.cloudinary.com/drewkramer/raw/upload/v1541645654/drewkramer/butler_regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
 @keyframes fadeInDown {
   0% {
     opacity: 0;
@@ -2878,7 +2884,7 @@ h4 {
   margin-bottom: .6rem; }
 
 h5 {
-  font-size: 115%;
+  font-size: inherit;
   font-family: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-weight: bolder;
   margin-bottom: inherit;
@@ -2919,6 +2925,9 @@ figcaption {
   margin: 1rem auto;
   padding: 0 20px;
   font-size: 80%; }
+
+.text-center {
+  text-align: center; }
 
 .btn body {
   font-size: 18px;

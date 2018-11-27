@@ -118,7 +118,7 @@ h4 {
 }
 
 h5 {
-  font-size: 115%;
+  font-size: inherit;
   font-family: $font-default;
   font-weight: bolder;
   margin-bottom: inherit;
@@ -169,6 +169,10 @@ figcaption {
   margin: 1rem auto;
   padding: 0 20px;
   font-size: 80%;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .btn {
