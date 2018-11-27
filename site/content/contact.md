@@ -10,4 +10,4 @@ draft: false
 
 Hello there! If you'd like to get in touch with me, feel free to shoot an email to me at [drewjkramer@gmail.com](mailto:drewjkramer@gmail.com). 
 
-You can also find me on [Instagram](https://www.instagram.com/drewkramer), [Facebook](https://www.facebook.com/kramer.drew), [Dribbble](https://www.dribbble.com/drewkramer), & [Github](https://www.github.com/drewkramer).
+You can also find me on [Instagram](https://www.instagram.com/drewkramer), [Facebook](https://www.facebook.com/kramer.drew), [Dribbble](https://www.dribbble.com/drewkramer), [Github](https://www.github.com/drewkramer), & [LinkedIn](https://www.linkedin.com/in/drewjkramer/)

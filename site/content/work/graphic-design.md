@@ -1,12 +1,12 @@
 ---
 title: "Graphic Design"
 date: 2018-11-18T11:02:57-05:00
-description:
+description: "Some assorted examples of my graphic design work accumulated over the last five years."
 tags:
 work_category:
 role:
 post_thumbnail: "/v1542564393/drewkramer/pas/pas_thumbnail.jpg"
-post_thumbnail_alt:
+post_thumbnail_alt: "Graphic Design Work"
 website_url:
 lead: "Some assorted examples of my graphic design work accumulated over the last five years."
 colorbar:
@@ -14,7 +14,7 @@ background_color:
 invert:
 type: "work"
 weight: 45
-draft: false
+draft: true
 ---
 
 {{< image-full >}}
