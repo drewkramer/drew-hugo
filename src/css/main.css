@@ -2707,6 +2707,8 @@ textarea.form-control {
     color: rgba(255, 255, 255, 0.8); }
   .inverse p.meta {
     color: rgba(255, 255, 255, 0.7); }
+  .inverse .navbar {
+    background: transparent; }
   .inverse .navbar .nav-item a {
     color: rgba(255, 255, 255, 0.8); }
   .inverse .navbar-brand:hover {
@@ -2724,6 +2726,8 @@ textarea.form-control {
   .inverse ::selection {
     background: rgba(255, 255, 255, 0.25);
     color: white; }
+  .inverse .Footer {
+    background: transparent; }
 
 h1 {
   font-size: 54px;
@@ -2846,8 +2850,9 @@ pre,
     letter-spacing: -0.2px; } }
 
 body {
-  font-family: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  position: relative;
   background: #efefef;
+  font-family: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   color: rgba(0, 0, 0, 0.7); }
 
 ::selection {
@@ -2858,6 +2863,17 @@ body {
   background: #2a2a2a;
   height: .75rem;
   width: 100%; }
+
+@media (min-width: 576px) {
+  .Wrapper {
+    padding-left: 80px; } }
+
+.Wrapper .Colorbar {
+  display: none;
+  position: relative; }
+  @media (min-width: 576px) {
+    .Wrapper .Colorbar {
+      display: block; } }
 
 .container {
   padding-right: 20px;
@@ -2906,13 +2922,7 @@ strong {
     margin-bottom: 0; }
 
 main {
-  margin: 3rem auto 0; }
-  @media (min-width: 576px) {
-    main {
-      margin: 6rem auto 0; } }
-  @media (min-width: 992px) {
-    main {
-      margin: 10rem auto 0; } }
+  margin: 4rem auto 0; }
 
 hr {
   margin: 3rem auto; }
@@ -2948,6 +2958,15 @@ figcaption {
 
 .navbar {
   padding: 1.5rem 20px 0; }
+  @media (min-width: 576px) {
+    .navbar {
+      position: fixed;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      background: #fff;
+      width: 80px;
+      padding: 0; } }
   .navbar-brand {
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -2956,6 +2975,14 @@ figcaption {
     transition: all .3s; }
     .navbar-brand:hover {
       color: #000; }
+    @media (min-width: 576px) {
+      .navbar-brand {
+        position: absolute;
+        top: 106px;
+        left: -41px;
+        transform: rotate(90deg);
+        margin: 0;
+        padding: 0; } }
   .navbar .nav-item {
     margin-right: .5em;
     margin-left: .5em; }
@@ -2966,6 +2993,16 @@ figcaption {
       .navbar .nav-item a:hover {
         color: #000;
         background: #fff; }
+  @media (min-width: 576px) {
+    .navbar .navbar-nav {
+      position: absolute;
+      bottom: 140px;
+      left: -95px;
+      transform: rotate(90deg); } }
+  .navbar .Colorbar {
+    position: absolute;
+    top: 0;
+    left: 0; }
 
 .Hero {
   margin: 1.5rem auto; }
@@ -3025,10 +3062,12 @@ figcaption {
   color: rgba(0, 0, 0, 0.7); }
 
 .Post {
+  min-height: calc(100vh - 200px);
   padding-bottom: 1.5rem; }
-  @media (min-width: 600px) {
+  @media (min-width: 576px) {
     .Post {
-      padding-bottom: 4rem; } }
+      padding-bottom: 4rem;
+      min-height: calc(100vh - 140px); } }
   .Post img {
     display: block;
     margin-top: 3rem;
@@ -3089,6 +3128,10 @@ ul, ol {
   .Image-group--full {
     width: 100%;
     background: transparent; }
+    @media (min-width: 576px) {
+      .Image-group--full {
+        padding-right: 20px;
+        padding-left: 20px; } }
   .Image-group .Image {
     width: 100%;
     max-width: 100%;
@@ -3120,16 +3163,17 @@ ul, ol {
 .Footer {
   background: #2a2a2a;
   color: #fff;
-  padding: 5rem 0 8rem; }
+  padding: 1.25rem 0; }
+  .Footer .nav {
+    justify-content: center; }
   .Footer .nav-link {
     padding-right: 0;
-    padding-left: 0; }
-  .Footer .navbar-brand {
-    margin-bottom: 1.25rem; }
+    padding-left: 0;
+    margin: 0 1rem; }
   .Footer a {
     color: #fff;
     transition: all .3s;
-    font-size: 18px; }
+    font-size: 70%; }
     .Footer a:hover {
       color: rgba(255, 255, 255, 0.8); }
 
@@ -3137,17 +3181,18 @@ ul, ol {
   position: relative; }
   .About__hero .container {
     position: relative; }
-  .About__hero .About__hero-image {
-    margin: auto auto 3rem; }
-    @media (min-width: 992px) {
-      .About__hero .About__hero-image {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 800px;
-        margin-top: -5rem;
-        max-width: 45%;
-        height: auto; } }
+  @media (min-width: 992px) {
+    .About__hero .About__avatar-block {
+      position: absolute;
+      width: 46%;
+      height: calc(100% + 4rem);
+      transform: translateY(-4rem); } }
+  @media (min-width: 992px) {
+    .About__hero .About__hero-image {
+      margin: auto auto 3rem;
+      height: 100%;
+      width: 100%;
+      object-fit: cover; } }
 
 .Content-block {
   padding: 6rem 0; }

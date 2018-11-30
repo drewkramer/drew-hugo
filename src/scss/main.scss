@@ -71,10 +71,13 @@ $responsive-large: (
 }
 
 body {
-  font-family: $font-default;
+  position: relative;
   background: #efefef;
+
+  font-family: $font-default;
   color: rgba(black, 0.7);
 }
+
 
 ::selection {
   background: rgba(black, .1);
@@ -85,6 +88,20 @@ body {
   background: #2a2a2a;
   height: .75rem;
   width: 100%;
+}
+
+.Wrapper {
+  @media(min-width: 576px) {
+    padding-left: 80px;
+  }
+
+  .Colorbar {
+    display: none;
+    position: relative;
+    @media(min-width: 576px) {
+      display: block;
+    }
+  }
 }
 
 .container {
@@ -145,15 +162,7 @@ strong {
 }
 
 main {
-  margin: 3rem auto 0;
-
-  @media (min-width: 576px) {
-    margin: 6rem auto 0;
-  }
-  
-  @media (min-width: 992px) {
-    margin: 10rem auto 0;
-  }
+  margin: 4rem auto 0;
 }
 
 hr {
@@ -192,6 +201,18 @@ figcaption {
 .navbar {
   padding: 1.5rem 20px 0;
 
+  @media (min-width: 576px) {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+
+    background: #fff;
+
+    width: 80px;
+    padding: 0;
+  }
+
   &-brand {
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -201,6 +222,17 @@ figcaption {
 
     &:hover {
       color: #000;
+    }
+
+    @media (min-width: 576px) {
+      position: absolute;
+      top: 106px;
+      left: -41px;
+
+      transform: rotate(90deg);
+
+      margin: 0;
+      padding: 0;
     }
   }
 
@@ -218,7 +250,25 @@ figcaption {
       }
     }
   }
+
+  .navbar-nav {
+    @media (min-width: 576px) {
+      position: absolute;
+      bottom: 140px;
+      left: -95px;
+  
+      transform: rotate(90deg);
+    }
+  }
+
+  .Colorbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
 }
+
 
 .Hero {
   margin: 1.5rem auto;
@@ -296,10 +346,12 @@ figcaption {
 }
   
 .Post {
+  min-height: calc(100vh - 200px);
   padding-bottom: 1.5rem;
-
-  @media (min-width: 600px) {
+  
+  @media (min-width: 576px) {
     padding-bottom: 4rem;
+    min-height: calc(100vh - 140px);
   }
 
   img {
@@ -385,6 +437,12 @@ ul, ol {
   &--full {
     width: 100%;
     background: transparent;
+
+    @media (min-width: 576px) {
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+
   }
 
   .Image {
@@ -425,21 +483,22 @@ ul, ol {
 .Footer {
   background: #2a2a2a;
   color: #fff;
-  padding: 5rem 0 8rem;
+  padding: 1.25rem 0;
+
+  .nav {
+    justify-content: center;
+  }
 
   .nav-link {
     padding-right: 0;
     padding-left: 0;
-  }
-
-  .navbar-brand {
-    margin-bottom: 1.25rem;
+    margin: 0 1rem;    
   }
 
   a {
     color: #fff;
     transition: all .3s;
-    font-size: 18px;
+    font-size: 70%;
 
     &:hover {
       color: rgba(#fff, .8);
@@ -454,17 +513,21 @@ ul, ol {
     position: relative;
   }
 
-  .About__hero-image {
-    margin: auto auto 3rem;
-
+  .About__avatar-block {
     @media (min-width: 992px) {
       position: absolute;
-      top: 0;
-      left: 0;
-      height: 800px;
-      margin-top: -5rem;
-      max-width: 45%;
-      height: auto;
+      width: 46%;
+      height: calc(100% + 4rem);
+      transform: translateY(-4rem);
+    }
+  }
+
+  .About__hero-image {
+    @media (min-width: 992px) {
+      margin: auto auto 3rem;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
     }
   }
 }

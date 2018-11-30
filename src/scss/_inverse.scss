@@ -23,6 +23,10 @@
         color: rgba(white, .7);
     }
 
+    .navbar {
+        background: transparent;
+    }
+
     .navbar .nav-item a {
         color: rgba(white, .8);
     }
@@ -56,6 +60,10 @@
     ::selection {
         background: rgba(white, .25);
         color: white;
+    }
+
+    .Footer {
+        background: transparent;
     }
 
 }
