@@ -1,10 +1,10 @@
-<div class="col-md-6">
+<div class="col-md-4 col-sm-6">
     <a href="{{.Permalink}}" class="Work__item">
         <div class="Work__image">
             <img 
             src="{{ .Site.Params.cloudinary_url }}{{ .Params.post_thumbnail }}" 
             alt="{{.Params.post_thumbnail_alt}}">
         </div>
-        <h3 class="Work__item-title">{{.Title}}</h3>
+        <h3 class="Work__item-title">{{.Title}}{{if .Params.work_category}}<span>{{.Params.work_category}}</span>{{end}}</h3>
     </a>
 </div>

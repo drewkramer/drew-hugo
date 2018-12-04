@@ -85,7 +85,7 @@ body {
 }
 
 .Colorbar {
-  background: #2a2a2a;
+  background: #1a1a1a;
   height: .75rem;
   width: 100%;
 }
@@ -117,7 +117,7 @@ body {
 h1, h2, h3, h4 {
   font-family: $font-headings;
   font-weight: 400;
-  color: #2a2a2a;
+  color: #1a1a1a;
 }
 
 h3,
@@ -139,11 +139,11 @@ h5 {
   font-family: $font-default;
   font-weight: bolder;
   margin-bottom: inherit;
-  color: #2a2a2a;
+  color: #1a1a1a;
 }
 
 strong {
-  color: #2a2a2a;
+  color: #1a1a1a;
 }
 
 .Meta {
@@ -154,7 +154,7 @@ strong {
 }
 .Meta-item {
   margin-bottom: 2rem;
-  color: #2a2a2a;
+  color: #1a1a1a;
 
   .btn {
     margin-bottom: 0;
@@ -217,7 +217,7 @@ figcaption {
     letter-spacing: 2px;
     text-transform: uppercase;
     font-size: 20px;
-    color: #2a2a2a;
+    color: #1a1a1a;
     transition: color .3s;
 
     &:hover {
@@ -310,8 +310,8 @@ figcaption {
 
 .Work__item {
   display: block;
-  text-align: center;
-  margin-bottom: 2.5rem;
+  text-align: left;
+  margin-bottom: 3rem;
   color: #000;
   transition: all .3s;
 
@@ -324,14 +324,24 @@ figcaption {
 
 .Work__item-title {
   font-family: $font-default;
-  margin: .5rem auto 0;
-  text-transform: uppercase;
-  font-size: 80%;
-  letter-spacing: 2.2px;
+  margin: 1rem auto 0;
+  text-transform: none;
+  font-size: 90%;
+  letter-spacing: 0;
+  font-weight: 700;
+  color: rgba(black, 0.98);
+  line-height: 1.4;
+
+  span {
+    font-size: 80%;
+    display: block;
+    opacity: .5;
+    font-weight: normal;
+  }
 }
 
 .Work__image {
-  height: 400px;
+  height: 560px;
 
   img {
     object-fit: cover;
@@ -392,7 +402,7 @@ ul, ol {
   display: inline-block;
   //text-transform: uppercase;
   letter-spacing: 0;
-  color: #2a2a2a;
+  color: #1a1a1a;
   padding: 1rem;
   font-weight: bolder;
 
@@ -413,12 +423,12 @@ ul, ol {
     right: 0;
     transition: all 0.2s cubic-bezier(0.65, 0.05, 0.36, 1);
     height: 2px;
-    background: #2a2a2a;
+    background: #1a1a1a;
   }
 
   &:hover {
     text-decoration: none;
-    color: #2a2a2a;
+    color: #1a1a1a;
 
     span {
       transform: translateY(3px);
@@ -481,7 +491,7 @@ ul, ol {
 }
 
 .Footer {
-  background: #2a2a2a;
+  background: #1a1a1a;
   color: #fff;
   padding: 1.25rem 0;
 
@@ -540,7 +550,7 @@ ul, ol {
   }
 
   &--dark {
-    background: #2a2a2a;
+    background: #1a1a1a;
     * {
       color: #fff;
     }

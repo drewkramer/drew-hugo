@@ -2860,7 +2860,7 @@ body {
   color: black; }
 
 .Colorbar {
-  background: #2a2a2a;
+  background: #1a1a1a;
   height: .75rem;
   width: 100%; }
 
@@ -2886,7 +2886,7 @@ body {
 h1, h2, h3, h4 {
   font-family: "butlerlight", Georgia, serif;
   font-weight: 400;
-  color: #2a2a2a; }
+  color: #1a1a1a; }
 
 h3,
 h4 {
@@ -2904,10 +2904,10 @@ h5 {
   font-family: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-weight: bolder;
   margin-bottom: inherit;
-  color: #2a2a2a; }
+  color: #1a1a1a; }
 
 strong {
-  color: #2a2a2a; }
+  color: #1a1a1a; }
 
 .Meta {
   font-size: 75%;
@@ -2917,7 +2917,7 @@ strong {
 
 .Meta-item {
   margin-bottom: 2rem;
-  color: #2a2a2a; }
+  color: #1a1a1a; }
   .Meta-item .btn {
     margin-bottom: 0; }
 
@@ -2971,8 +2971,8 @@ figcaption {
     letter-spacing: 2px;
     text-transform: uppercase;
     font-size: 20px;
-    color: #2a2a2a;
-    transition: all .3s; }
+    color: #1a1a1a;
+    transition: color .3s; }
     .navbar-brand:hover {
       color: #000; }
     @media (min-width: 576px) {
@@ -3034,8 +3034,8 @@ figcaption {
 
 .Work__item {
   display: block;
-  text-align: center;
-  margin-bottom: 2.5rem;
+  text-align: left;
+  margin-bottom: 3rem;
   color: #000;
   transition: all .3s; }
   .Work__item:hover {
@@ -3045,13 +3045,21 @@ figcaption {
 
 .Work__item-title {
   font-family: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  margin: .5rem auto 0;
-  text-transform: uppercase;
-  font-size: 80%;
-  letter-spacing: 2.2px; }
+  margin: 1rem auto 0;
+  text-transform: none;
+  font-size: 90%;
+  letter-spacing: 0;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.98);
+  line-height: 1.4; }
+  .Work__item-title span {
+    font-size: 80%;
+    display: block;
+    opacity: .5;
+    font-weight: normal; }
 
 .Work__image {
-  height: 400px; }
+  height: 560px; }
   .Work__image img {
     object-fit: cover;
     width: 100%;
@@ -3096,7 +3104,7 @@ ul, ol {
   margin: .5rem 0 3.5rem;
   display: inline-block;
   letter-spacing: 0;
-  color: #2a2a2a;
+  color: #1a1a1a;
   padding: 1rem;
   font-weight: bolder; }
   @media (min-width: 600px) {
@@ -3113,10 +3121,10 @@ ul, ol {
     right: 0;
     transition: all 0.2s cubic-bezier(0.65, 0.05, 0.36, 1);
     height: 2px;
-    background: #2a2a2a; }
+    background: #1a1a1a; }
   .Post-nav__link:hover {
     text-decoration: none;
-    color: #2a2a2a; }
+    color: #1a1a1a; }
     .Post-nav__link:hover span {
       transform: translateY(3px); }
   .Post-nav__link:hover:before {
@@ -3161,7 +3169,7 @@ ul, ol {
   padding: .7rem 1.5rem; }
 
 .Footer {
-  background: #2a2a2a;
+  background: #1a1a1a;
   color: #fff;
   padding: 1.25rem 0; }
   .Footer .nav {
@@ -3199,7 +3207,7 @@ ul, ol {
   .Content-block--light {
     background: #fff; }
   .Content-block--dark {
-    background: #2a2a2a; }
+    background: #1a1a1a; }
     .Content-block--dark * {
       color: #fff; }
   .Content-block--blue {
