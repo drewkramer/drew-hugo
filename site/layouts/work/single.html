@@ -12,6 +12,11 @@
             {{if .Params.lead }}
             <p class="Hero__lead">
                 {{ with .Params.lead }}{{.}}{{end}}
+                {{if .Params.website_url }}
+                  {{ with .Params.website_url }}
+                    <br><br><a href="{{.}}" target="_blank" class="">Visit Website</a>
+                  {{end}}
+                {{end}}
             </p>
             {{end}}
         </div>
@@ -26,13 +31,6 @@
             <div class="Meta-item">
                 <p class="Meta">Project Type</p>
                 <p>{{ with .Params.work_category }}{{.}}{{end}}</p>
-            </div>
-            {{end}}
-            {{if .Params.website_url }}
-            <div class="Meta-item">
-              {{ with .Params.website_url }}
-                <a href="{{.}}" target="_blank" class="btn btn-outline-dark">Visit Website</a>
-              {{end}}
             </div>
             {{end}}
         </div>

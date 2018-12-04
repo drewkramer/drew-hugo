@@ -10,8 +10,8 @@ enableEmoji = true
   name = "Drew Kramer"
 
 [params]
-  description = "UI/UX designer & developer from Central PA passionate about helping people grow their businesses and brands visually."
-  strapline = "UI/UX Design & Development"
+  description = "Front-end designer from Central PA passionate about helping people grow their businesses and brands visually."
+  strapline = "Front-end Design"
   location = "Lancaster, PA"
   twitter = "@drewkramer"
   # Set Cloudinary URL for image hosting
