@@ -5,7 +5,7 @@ description: "Some assorted examples of my graphic design work accumulated over 
 tags:
 work_category:
 role:
-post_thumbnail: "/v1542564393/drewkramer/pas/pas_thumbnail.jpg"
+post_thumbnail: "/v1544063045/drewkramer/lines.jpg"
 post_thumbnail_alt: "Graphic Design Work"
 website_url:
 lead: "Some assorted examples of my graphic design work accumulated over the last five years."
@@ -13,8 +13,8 @@ colorbar:
 background_color:
 invert:
 type: "work"
-weight: 45
-draft: true
+weight: 105
+draft: false
 ---
 
 {{< image-full >}}

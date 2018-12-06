@@ -2966,6 +2966,7 @@ figcaption {
       bottom: 0;
       background: #fff;
       width: 80px;
+      min-height: 500px;
       padding: 0; } }
   .navbar-brand {
     letter-spacing: 2px;
@@ -3059,7 +3060,19 @@ figcaption {
     font-weight: normal; }
 
 .Work__image {
-  height: 560px; }
+  height: 400px; }
+  @media (min-width: 576px) {
+    .Work__image {
+      height: 380px; } }
+  @media (min-width: 768px) {
+    .Work__image {
+      height: 360px; } }
+  @media (min-width: 992px) {
+    .Work__image {
+      height: 480px; } }
+  @media (min-width: 1200px) {
+    .Work__image {
+      height: 560px; } }
   .Work__image img {
     object-fit: cover;
     width: 100%;
