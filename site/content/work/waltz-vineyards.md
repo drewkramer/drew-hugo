@@ -19,7 +19,7 @@ draft: false
 
 {{< image-full >}}
 {{< cld src="v1542482844/drewkramer/waltzvineyards/waltzvineyards_home.jpg" alt="Waltz Vineyards Website Home" >}}
-{{< cld src="v1542060584/drewkramer/waltzvineyards-website-2.jpg" alt="Waltz vineyards mobile mockups" background="#e9e8e0" >}}
+{{< cld src="v1542060584/drewkramer/waltzvineyards-website-2.jpg" alt="Waltz vineyards mobile mockups" >}}
 {{< /image-full>}}
 
 The site was designed in Figma, and built from the ground up in Wordpress. They use a third party for their online shopping cart, so I worked with their team to implement new design changes.

@@ -2,8 +2,9 @@
     <a href="{{.Permalink}}" class="Work__item">
         <div class="Work__image">
             <img 
-            src="{{ .Site.Params.cloudinary_url }}{{ .Params.post_thumbnail }}" 
-            alt="{{.Params.post_thumbnail_alt}}">
+            data-src="{{ .Site.Params.cloudinary_url }}{{ .Params.post_thumbnail }}" 
+            alt="{{.Params.post_thumbnail_alt}}"
+            class="lazy">
         </div>
         <h3 class="Work__item-title">{{.Title}}{{if .Params.work_category}}<span>{{.Params.work_category}}</span>{{end}}</h3>
     </a>

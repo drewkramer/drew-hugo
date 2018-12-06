@@ -1,5 +1,9 @@
 $(function () {
 
+    var myLazyLoad = new LazyLoad({
+        elements_selector: ".lazy"
+    });
+
     //Mobile nav
     $(".Mobile-nav-toggle").click(function () {
         $(".Mobile-nav").toggle(400, function () {
@@ -7,12 +11,5 @@ $(function () {
         $("body").addClass("nav-open");
         $(".Mobile-nav").addClass("open");
     });
-
-    // $(".Mobile-nav__close").click(function () {
-    //     $(".Mobile-nav").hide(400, function () {
-    //     });
-    //     $("body").removeClass("nav-open");
-    //     $(".Mobile-nav").removeClass("open");
-    // });
 
 });

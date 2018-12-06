@@ -2931,6 +2931,13 @@ img {
   max-width: 100%;
   height: auto; }
 
+img.lazy {
+  opacity: 0;
+  transition: opacity .2s; }
+
+img.lazy.loaded {
+  opacity: 1; }
+
 figcaption {
   margin: 1rem auto;
   padding: 0 20px;
@@ -3160,6 +3167,8 @@ ul, ol {
     padding-bottom: .5rem;
     margin-top: 1rem;
     margin-bottom: 1rem; }
+    .Image-group .Image img {
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2); }
     @media (min-width: 600px) {
       .Image-group .Image {
         margin-top: 3rem;
