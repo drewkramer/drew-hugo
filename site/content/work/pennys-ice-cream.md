@@ -20,7 +20,7 @@ draft: false
 
 {{< image-full >}}
 {{< cld src="v1542487889/drewkramer/pennysicecream/pennysicecream_home.jpg" alt="Pennys Ice Cream website home" >}}
-{{< cld src="v1542075034/drewkramer/pennysicecream-website-2.jpg" alt="Pennys Ice Cream Phone Mockups" background="#e8f7f4" >}}
+{{< cld src="v1542075034/drewkramer/pennysicecream-website-2.jpg" alt="Pennys Ice Cream Phone Mockups" >}}
 {{< /image-full >}}
 
 {{< image-full >}}
