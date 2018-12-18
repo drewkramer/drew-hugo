@@ -16,7 +16,7 @@
 
 @import 'fonts';
 @import 'base';
-@import 'animations';
+//@import 'animations';
 @import 'core/shevy';
 
 @import 'post';
@@ -68,6 +68,10 @@ $responsive-large: (
   @include headings($responsive-large);
   @include body($responsive-large);
   @include content($responsive-large);
+}
+
+html.sr .reveal {
+  visibility: hidden;
 }
 
 body {
@@ -293,7 +297,6 @@ figcaption {
 
 .Hero__title {
   line-height: 1;
-  animation: fadeInUp .5s;
   
   @media (min-width: 768px) {
     margin-bottom: 4rem;

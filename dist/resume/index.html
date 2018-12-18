@@ -38,6 +38,8 @@
 
       gtag('config', 'UA-67995909-1');
     </script>
+    
+    <script src="https://unpkg.com/scrollreveal@4"></script>
 
   </head>
   <body 
@@ -90,7 +92,7 @@
 
         
 
-  <section class="Post About__hero">
+<section class="Post About__hero reveal">
     <div class="About__avatar-block">
         <img src="https://res.cloudinary.com/drewkramer/image/upload/v1537372347/drewkramer/dk-hero.jpg" alt="Drew Kramer" class="About__hero-image">
     </div>
@@ -106,7 +108,7 @@
     </div>
 </section>
 
-<section class="Content-block Content-block--green">
+<section class="Content-block Content-block--green reveal">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
@@ -140,7 +142,7 @@
     </div>
 </section>
 
-<section class="Content-block Content-block--blue">
+<section class="Content-block Content-block--blue reveal">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
@@ -188,7 +190,7 @@
     </div>
 </section>
 
-<section class="Content-block Content-block--light">
+<section class="Content-block Content-block--light reveal">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
@@ -234,19 +236,29 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/cloudinary-core/2.5.0/cloudinary-core-shrinkwrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@8.17.0/dist/lazyload.min.js"></script>
 
     <script>
-        var cl = cloudinary.Cloudinary.new({
-            cloud_name: "drewkramer"
+        ScrollReveal().reveal('.reveal', {
+            duration: 500
         });
-        cl.responsive();
+    </script>
+    <script>
+        $(function () {
+            var lazyDrew = new LazyLoad({
+                elements_selector: ".lazy"
+            });
+
+            
+            $(".Mobile-nav-toggle").click(function () {
+            $(".Mobile-nav").toggle(400, function () {
+            });
+            $("body").addClass("nav-open");
+            $(".Mobile-nav").addClass("open");
+            });
+        });
     </script>
     
-    <script src="/app.js"></script>
-
-
 </body>
 </html>
 

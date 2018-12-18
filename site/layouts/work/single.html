@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-  <section class="Hero">
+  <section class="Hero reveal">
     <div class="container">
       <div class="row">
         <div class="col">
@@ -37,14 +37,14 @@
       </div>
     </div>
   </section>
-  <section class="Post">
+  <section class="Post reveal">
     <div class="container">
       {{ .Content }}
     </div>
   </section>
 
   {{if .PrevInSection }}
-  <div class="Post-nav">
+  <div class="Post-nav reveal">
       {{ with .PrevInSection }}
       <span class="Post-nav__label">Previous</span>
       <a class="Post-nav__link" href="{{.Permalink}}"><span>{{.Title}}</span></a>

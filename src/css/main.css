@@ -2600,25 +2600,6 @@ textarea.form-control {
   font-weight: normal;
   font-style: normal; }
 
-@keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    transform: translateY(-20px); } }
-
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    transform: translateY(15px); } }
-
-@keyframes fadeInLeftSmall {
-  0% {
-    opacity: 0;
-    transform: translateX(10px); } }
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0; } }
-
 .Mobile-nav {
   display: none;
   position: absolute;
@@ -2849,6 +2830,9 @@ pre,
     margin-bottom: 28.56px;
     letter-spacing: -0.2px; } }
 
+html.sr .reveal {
+  visibility: hidden; }
+
 body {
   position: relative;
   background: #efefef;
@@ -3021,8 +3005,7 @@ figcaption {
     text-align: center; }
 
 .Hero__title {
-  line-height: 1;
-  animation: fadeInUp .5s; }
+  line-height: 1; }
   @media (min-width: 768px) {
     .Hero__title {
       margin-bottom: 4rem; } }
