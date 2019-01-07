@@ -14,7 +14,7 @@ You can also find me on [Instagram](https://www.instagram.com/drewkramer), [Face
 
 #### Or Use the Form
 
-<form action="https://formspree.io/drewjkramer@email.com" method="POST" class="Form Form--contact">
+<form action="https://formspree.io/drewjkramer@gmail.com" method="POST" class="Form Form--contact">
   <div class="Form__group">
   <label class="Label Form__label small">Full Name</label><input type="text" name="name" class="form-control form-control--text">
   </div>
