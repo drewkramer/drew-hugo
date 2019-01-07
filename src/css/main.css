@@ -2670,6 +2670,29 @@ textarea.form-control {
     .grid-3 {
       grid-template-columns: 1fr 1fr 1fr; } }
 
+.Form {
+  margin: 2rem 0; }
+  .Form--contact {
+    max-width: 600px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    padding: 4%; }
+  .Form .form-control {
+    border-radius: 0;
+    height: calc(2.75rem + 2px); }
+  .Form textarea {
+    min-height: 120px; }
+  .Form .btn {
+    margin-bottom: 0; }
+
+.Form__group {
+  margin-top: 15px;
+  display: block; }
+  .Form__group:first-child {
+    margin-top: 0; }
+
+.Form__label {
+  margin-bottom: 0; }
+
 .inverse {
   background: black;
   color: white; }
