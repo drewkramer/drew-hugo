@@ -25,7 +25,7 @@ While Sketch might still be the industry standard screen UI design tool, Figma h
 ##### VS Code
 I made the switch from Sublime Text to VS Code about a year ago mainly for the built in Git tools that VS Code had to offer, but quickly realized it has many superior features; including well supported extensions and an integrated terminal.
 
-My favorite VS Code theme is the <a href="https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2" target="_blank">Cobalt2 theme by Wes Bos</a>.
+Currently loving the One Dark Pro color theme with Inconsolata.
 
 ##### MacOS
 Best operating system period. But, right now I'm currently exploring converting a Chromebook into a Linux local development machine using GalliumOS.
@@ -49,16 +49,16 @@ Amazing tool by <a href="https://share.getf.ly/k15s1g" target="_blank">Flywheel<
 **Sass**
 <br>CSS on steroids. Variables, nesting, mixins, nuff said. I'm also using a Sass plugin called Shevy to create a modular typography scale. Super handy.
 
+**Webfonts**
+<br>Typography is one of the most important elements for any website. For this site, I'm using a fantastic flexible open source typeface called [Inter UI](https://rsms.me/inter/). My go-to place for webfonts is defintely [Google Fonts](https://fonts.google.com/), and for type inspiration I'm a huge fan of [Typewolf](https://www.typewolf.com/).
+
 **Cloudinary**
 <br>All media from this site is stored on Cloudinary. Serves images from their fast cdn and they have a lot of tools to make working with media easier, including serving responsive images.
 
 **Netlify**
-<br>Publish static site projects. It's free, and their platform just straight up rules. Highly recommend.
+<br>Publish static site projects using the JAMstack. It's free, and their platform just straight up rules. Highly recommend.
 
 **Gulp + npm**
 <br>Local server development + build automation. I'm still learning the power, but these tools just make things way easier for development.
-
-**Google Fonts**
-<br>I'm using two type faces on this site, [Butler](https://fontlibrary.org/en/font/butler) and [Karla](https://fonts.google.com/specimen/Karla). Karla is a great free font from Principal Design served up by Google Fonts, which is my go-to platform for webfonts.
 
 {{% /content-block %}}

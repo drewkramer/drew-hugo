@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Karla:400,700");
+@import url("https://rsms.me/inter/inter-ui.css");
 *,
 *::before,
 *::after {
@@ -2588,17 +2588,12 @@ textarea.form-control {
 .invisible {
   visibility: hidden !important; }
 
-@font-face {
-  font-family: 'butlerlight';
-  src: url("https://res.cloudinary.com/drewkramer/raw/upload/v1541645654/drewkramer/butler_light-webfont.woff2") format("woff2"), url("https://res.cloudinary.com/drewkramer/raw/upload/v1541631923/drewkramer/butler_light-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
+html {
+  font-family: 'Inter UI', sans-serif; }
 
-@font-face {
-  font-family: 'butlerregular';
-  src: url("https://res.cloudinary.com/drewkramer/raw/upload/v1541645654/drewkramer/butler_regular-webfont.woff2") format("woff2"), url("https://res.cloudinary.com/drewkramer/raw/upload/v1541645654/drewkramer/butler_regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter UI var alt', sans-serif; } }
 
 .Mobile-nav {
   display: none;
@@ -2673,19 +2668,25 @@ textarea.form-control {
 .Form {
   margin: 2rem 0; }
   .Form--contact {
-    max-width: 600px;
-    border: 1px solid rgba(0, 0, 0, 0.25);
-    padding: 4%; }
+    max-width: 600px; }
   .Form .form-control {
-    border-radius: 0;
-    height: calc(2.75rem + 2px); }
+    height: 60px;
+    padding: 1rem;
+    font-size: 18px;
+    border: 0;
+    border-radius: 4px; }
   .Form textarea {
     min-height: 120px; }
   .Form .btn {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    width: 100%;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 4px; }
 
 .Form__group {
-  margin-top: 15px;
+  margin-top: 20px;
   display: block; }
   .Form__group:first-child {
     margin-top: 0; }
@@ -2859,7 +2860,7 @@ html.sr .reveal {
 body {
   position: relative;
   background: #efefef;
-  font-family: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   color: rgba(0, 0, 0, 0.7); }
 
 ::selection {
@@ -2891,24 +2892,21 @@ body {
   margin-bottom: 1.5rem; }
 
 h1, h2, h3, h4 {
-  font-family: "butlerlight", Georgia, serif;
+  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-weight: 400;
   color: #1a1a1a; }
 
-h3,
-h4 {
-  font-weight: 400; }
-
 h1 {
-  letter-spacing: -1px;
-  line-height: 1; }
+  letter-spacing: -2px;
+  line-height: 1;
+  font-weight: 400; }
 
 h4 {
   margin-bottom: .6rem; }
 
 h5 {
   font-size: inherit;
-  font-family: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-weight: bolder;
   margin-bottom: inherit;
   color: #1a1a1a; }
@@ -2994,7 +2992,7 @@ figcaption {
       .navbar-brand {
         position: absolute;
         top: 106px;
-        left: -41px;
+        left: -44px;
         transform: rotate(90deg);
         margin: 0;
         padding: 0; } }
@@ -3012,7 +3010,7 @@ figcaption {
     .navbar .navbar-nav {
       position: absolute;
       bottom: 140px;
-      left: -95px;
+      left: -98px;
       transform: rotate(90deg); } }
   .navbar .Colorbar {
     position: absolute;
@@ -3023,7 +3021,7 @@ figcaption {
   margin: 1.5rem auto; }
   @media (min-width: 600px) {
     .Hero {
-      margin: 4rem auto; } }
+      margin: 8rem auto; } }
   .Hero--centered {
     text-align: center; }
 
@@ -3058,7 +3056,7 @@ figcaption {
     transform: translateY(-5px); }
 
 .Work__item-title {
-  font-family: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   margin: 1rem auto 0;
   text-transform: none;
   font-size: 90%;
@@ -3242,6 +3240,17 @@ ul, ol {
     background: #E9FBFE; }
   .Content-block--green {
     background: #D2F7EC; }
+
+.Content-block a,
+.Post a {
+  color: #000;
+  box-shadow: inset 0 -9px 0 rgba(1, 68, 218, 0.15);
+  text-decoration: none;
+  transition: all .2s; }
+  .Content-block a:hover,
+  .Post a:hover {
+    text-decoration: none;
+    box-shadow: inset 0 -9px 0 rgba(1, 68, 218, 0.3); }
 
 .Responsive-embed {
   position: relative;

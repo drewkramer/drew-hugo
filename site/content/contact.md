@@ -16,12 +16,15 @@ You can also find me on [Instagram](https://www.instagram.com/drewkramer), [Face
 
 <form action="https://formspree.io/drewjkramer@gmail.com" method="POST" class="Form Form--contact">
   <div class="Form__group">
-  <label class="Label Form__label small">Full Name</label><input type="text" name="name" class="form-control form-control--text" required>
+  <!-- <label class="Label Form__label small">Full Name</label> -->
+  <input type="text" name="name" class="form-control form-control--text" required placeholder="Full name">
   </div>
   <div class="Form__group">
-  <label class="Label Form__label small">Email</label><input type="email" name="_replyto" class="form-control form-control--text" required>
+  <!-- <label class="Label Form__label small">Email</label> -->
+  <input type="email" name="_replyto" class="form-control form-control--text" required placeholder="Email">
   </div><div class="Form__group">
-  <label class="Label Form__label small">Message</label><textarea class="form-control form-control--textearea" name="message" type="text" required></textarea>
+  <!-- <label class="Label Form__label small">Message</label> -->
+  <textarea class="form-control form-control--textearea" name="message" type="text" required placeholder="Your message"></textarea>
   </div>
   <div class="Form__group">
   <button type="submit" class="btn btn-secondary btn-submit">Send</button>

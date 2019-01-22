@@ -1,7 +1,7 @@
 ---
 title: "Resumé"
 date: 2018-11-17T16:31:55-05:00
-draft: false
+draft: true
 ---
 
 {{% about-hero image="https://res.cloudinary.com/drewkramer/image/upload/v1537372347/drewkramer/dk-hero.jpg" image-alt="Drew Kramer" %}}
