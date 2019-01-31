@@ -249,6 +249,7 @@ figcaption {
   }
 
   .navbar-title {
+    display: none;
     position: absolute;
     bottom: 100px;
     left: -51px;
@@ -259,6 +260,10 @@ figcaption {
     transform: rotate(90deg);
     text-align: right;
     font-size: 18px;
+
+    @media (min-width: 576px) {
+      display: block;
+    }
   }
 
   .nav-item {

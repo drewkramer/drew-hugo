@@ -3029,6 +3029,7 @@ figcaption {
         margin: 0;
         padding: 0; } }
   .navbar .navbar-title {
+    display: none;
     position: absolute;
     bottom: 100px;
     left: -51px;
@@ -3039,6 +3040,9 @@ figcaption {
     transform: rotate(90deg);
     text-align: right;
     font-size: 18px; }
+    @media (min-width: 576px) {
+      .navbar .navbar-title {
+        display: block; } }
   .navbar .nav-item {
     margin-right: .5em;
     margin-left: .5em; }
