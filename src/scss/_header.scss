@@ -1,15 +1,20 @@
 .Mobile-nav {
   display: none;
-  position: absolute;
-  top: 4.25rem;
-  right: 20px;
   width: 100%;
-  max-width: 150px;
-  background: #2a2a2a;
-  border-radius: .25rem;
-  box-shadow: 0 10px 20px rgba(black, .2);
-  animation: fadeInDown .4s;
+  background: #1a1a1a;
+  margin-top: 12px;
   z-index: 999;
+  
+  @media(min-width: 576px) {
+    position: fixed;
+    left: 80px;
+    top: 0;
+    max-width: 300px;
+    height: 100%;
+    margin-top: 0;
+    animation: fadeInLeft .2s;
+    animation-fill-mode: both;
+  }
   
   &__inner {
     width: 100%;
@@ -22,10 +27,13 @@
       color: rgba(white, 1);
       display: block;
       margin: 0 0 .5rem;
-      font-size: inherit;
-      letter-spacing: .25px;
-      font-weight: 400;
-      transition: all .3s;
+      font-size: 30px;
+      font-weight: 600;
+      transition: all .2s;
+      
+      @media(min-width: 576px) {
+        font-size: 42px;
+      }
 
       &:hover {
         text-decoration: none;
@@ -58,21 +66,26 @@
 }
 
 .Mobile-nav-toggle {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 36px;
-  height: 20px;
   cursor: pointer;
+  
+  @media(min-width: 576px) {   
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
 
-    @media(min-width: 576px) {
-      display: none;
-    }
+  & > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 32px;
+    height: 32px;
+  }
 
   .line {
     width: 100%;
-    height: 2px;  
-    background: rgba(black,.7);
+    height: 3px;  
+    background: rgba(black,.8);
   }
 }

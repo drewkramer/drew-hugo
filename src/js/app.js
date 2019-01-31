@@ -6,10 +6,10 @@ $(function () {
 
     //Mobile nav
     $(".Mobile-nav-toggle").click(function () {
-        $(".Mobile-nav").toggle(400, function () {
-        });
+
+        $(".Mobile-nav").toggle();
+
         $("body").addClass("nav-open");
-        $(".Mobile-nav").addClass("open");
     });
 
     

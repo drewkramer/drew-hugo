@@ -1,16 +1,21 @@
 <nav class="navbar navbar-expand-sm">
     {{ partial "colorbar.html" . }}
     <a class="navbar-brand" href="{{ $.Site.BaseURL }}">{{ .Site.Title }}</a>
-    <div class="navbar-nav ml-auto d-none d-sm-flex">
-        {{ range .Site.Menus.main }}
+    <div class="navbar-title">{{ .Title }}</div>
+    <!--<div class="navbar-nav ml-auto d-none d-sm-flex">
+         {{ range .Site.Menus.main }}
         <div class="nav-item">
             <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
         </div>
-        {{ end }}
-    </div>
+        {{ end }} 
+    </div>-->
+    <!-- <div class="navbar-bottom"></div> -->
     <div class="Mobile-nav-toggle">
-        <div class="line"></div>
-        <div class="line"></div>
+        <div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
     </div>
 </nav>
 <div class="Mobile-nav" {{if .Params.colorbar }}style="background: {{ .Params.colorbar }}"{{end}}>
