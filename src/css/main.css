@@ -2725,44 +2725,44 @@ textarea.form-control {
 .Form__label {
   margin-bottom: 0; }
 
-.inverse {
+.Night {
   background: black;
   color: white; }
-  .inverse h1,
-  .inverse h2,
-  .inverse h3,
-  .inverse h4,
-  .inverse blockquote,
-  .inverse .meta-item p,
-  .inverse .navbar-brand {
+  .Night h1,
+  .Night h2,
+  .Night h3,
+  .Night h4,
+  .Night blockquote,
+  .Night .meta-item p,
+  .Night .navbar-brand {
     color: white; }
-  .inverse p,
-  .inverse ul,
-  .inverse ol,
-  .inverse figcaption {
+  .Night p,
+  .Night ul,
+  .Night ol,
+  .Night figcaption {
     color: rgba(255, 255, 255, 0.8); }
-  .inverse p.meta {
+  .Night p.meta {
     color: rgba(255, 255, 255, 0.7); }
-  .inverse .navbar {
+  .Night .navbar {
     background: transparent; }
-  .inverse .navbar .nav-item a {
+  .Night .navbar .nav-item a {
     color: rgba(255, 255, 255, 0.8); }
-  .inverse .navbar-brand:hover {
+  .Night .navbar-brand:hover {
     color: #fff; }
-  .inverse .Post-nav__link {
+  .Night .Post-nav__link {
     color: rgba(255, 255, 255, 0.8); }
-    .inverse .Post-nav__link:hover {
+    .Night .Post-nav__link:hover {
       color: white; }
-    .inverse .Post-nav__link:before {
+    .Night .Post-nav__link:before {
       background: rgba(255, 255, 255, 0.8); }
-    .inverse .Post-nav__link:hover:before {
+    .Night .Post-nav__link:hover:before {
       background: white; }
-  .inverse .mobile-nav-toggle .line {
-    background: rgba(255, 255, 255, 0.7); }
-  .inverse ::selection {
+  .Night .Mobile-nav-toggle .line {
+    background: white; }
+  .Night ::selection {
     background: rgba(255, 255, 255, 0.25);
     color: white; }
-  .inverse .Footer {
+  .Night .Footer {
     background: transparent; }
 
 h1 {
