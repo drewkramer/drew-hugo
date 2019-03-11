@@ -148,6 +148,18 @@ strong {
   color: #1a1a1a;
 }
 
+pre {
+  font-size: .85rem;
+  padding: 1.25rem;
+  margin: 2rem 0;
+  
+  @media (min-width: 576px) {
+    font-size: 1.1rem;
+      padding: 2rem;
+      margin: 3rem 0;
+    }
+}
+
 .Meta {
     font-size: 75%;
     margin-bottom: 1px;
