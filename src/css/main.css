@@ -2958,7 +2958,8 @@ strong {
     margin-bottom: 0; }
 
 main {
-  margin: 4rem auto 0; }
+  margin: 4rem auto 0;
+  min-height: calc(100vh - 240px); }
 
 hr {
   margin: 3rem auto; }
@@ -3078,6 +3079,16 @@ figcaption {
     .Hero__title {
       margin-bottom: 4rem; } }
 
+.Hero__image {
+  height: 45vw;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 2rem; }
+  @media (min-width: 768px) {
+    .Hero__image {
+      margin-bottom: 4rem;
+      height: 38vw; } }
+
 @media (min-width: 768px) {
   .Home .Hero__content {
     margin-bottom: 1rem; } }
@@ -3156,10 +3167,30 @@ figcaption {
         margin-top: 4rem;
         margin-bottom: 4rem; } }
   .Post h1, .Post h2, .Post h3, .Post h4, .Post p, .Post ul, .Post ol {
-    max-width: 660px; }
+    max-width: 780px; }
 
 ul, ol {
   padding-left: 0; }
+
+.Post__title-area {
+  margin-top: 0;
+  margin-bottom: 1.5rem; }
+  @media (min-width: 768px) {
+    .Post__title-area {
+      margin-top: 3rem;
+      margin-bottom: 4rem; } }
+  .Post__title-area .Hero__title {
+    margin-bottom: 5px; }
+
+.Post__meta {
+  font-size: 85%; }
+
+.tags a {
+  position: relative; }
+  .tags a:after {
+    content: ","; }
+  .tags a:last-child:after {
+    content: none; }
 
 .Post-nav {
   text-align: center; }
@@ -3257,6 +3288,49 @@ ul, ol {
     font-size: 70%; }
     .Footer a:hover {
       color: rgba(255, 255, 255, 0.8); }
+
+.Posts__group {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1.5rem;
+  margin-bottom: 4rem; }
+  @media (min-width: 576px) {
+    .Posts__group {
+      grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+      grid-gap: 2rem;
+      margin-bottom: 6rem; } }
+  .Posts__group .Post-item {
+    color: #111111;
+    background: #fff;
+    border: 4px solid;
+    border-radius: 12px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.09);
+    padding: 2rem;
+    transition: all 0.2s cubic-bezier(0.65, 0.05, 0.36, 1); }
+    .Posts__group .Post-item:hover {
+      text-decoration: none;
+      transform: translateY(-5px);
+      box-shadow: 0 12px 60px -8px rgba(0, 0, 0, 0.3); }
+  .Posts__group .Post-item__title {
+    font-weight: bold;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    margin-bottom: .25rem; }
+    .Posts__group .Post-item__title a {
+      color: inherit; }
+  .Posts__group .Post__meta {
+    font-size: 15px;
+    line-height: 18px;
+    color: #555;
+    font-size: 14px; }
+    .Posts__group .Post__meta .date, .Posts__group .Post__meta .tags {
+      display: block; }
+    .Posts__group .Post__meta .tag {
+      position: relative; }
+      .Posts__group .Post__meta .tag:after {
+        content: ","; }
+      .Posts__group .Post__meta .tag:last-child:after {
+        content: none; }
 
 .About__hero {
   position: relative; }
