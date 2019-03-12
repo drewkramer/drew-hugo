@@ -112,12 +112,14 @@ View original iOS app &amp;rarr;</description>
     </item>
     
     <item>
-      <title>First Post</title>
-      <link>/posts/first-post/</link>
+      <title>Thank you, grid-gap</title>
+      <link>/posts/ty-grid-gap/</link>
       <pubDate>Mon, 11 Mar 2019 09:47:55 -0400</pubDate>
       
-      <guid>/posts/first-post/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa tempor nec feugiat nisl pretium. In iaculis nunc sed augue lacus viverra vitae congue eu. At tellus at urna condimentum mattis pellentesque id nibh. Pretium aenean pharetra magna ac placerat vestibulum. Integer enim neque volutpat ac tincidunt vitae semper. Dictum sit amet justo donec enim diam vulputate ut. Ut tellus elementum sagittis vitae et leo duis.</description>
+      <guid>/posts/ty-grid-gap/</guid>
+      <description> 👋 Bye bye negative margins. Take this:
+&amp;lt;div class=&amp;#34;grid&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;grid-item&amp;#34;&amp;gt; &amp;lt;h2&amp;gt;{{ .Title }}&amp;lt;/h2&amp;gt; &amp;lt;p&amp;gt;{{ .Desc }}&amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;grid-item&amp;#34;&amp;gt; &amp;lt;h2&amp;gt;{{ .Title }}&amp;lt;/h2&amp;gt; &amp;lt;p&amp;gt;{{ .Desc }}&amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;grid-item&amp;#34;&amp;gt; &amp;lt;h2&amp;gt;{{ .Title }}&amp;lt;/h2&amp;gt; &amp;lt;p&amp;gt;{{ .Desc }}&amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; Add this:
+.grid { display: grid; grid-template-columns: repeat(auto-fill, 1fr); grid-gap: 20px; } BOOM. </description>
     </item>
     
     <item>

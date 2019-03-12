@@ -30,20 +30,11 @@
     </item>
     
     <item>
-      <title>Css Grid</title>
-      <link>/tags/css-grid/</link>
+      <title>Grid</title>
+      <link>/tags/grid/</link>
       <pubDate>Mon, 11 Mar 2019 09:47:55 -0400</pubDate>
       
-      <guid>/tags/css-grid/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Scss</title>
-      <link>/tags/scss/</link>
-      <pubDate>Mon, 11 Mar 2019 09:47:55 -0400</pubDate>
-      
-      <guid>/tags/scss/</guid>
+      <guid>/tags/grid/</guid>
       <description></description>
     </item>
     

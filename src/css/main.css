@@ -2924,7 +2924,7 @@ body {
 
 h1, h2, h3, h4 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   color: #1a1a1a; }
 
 h1 {
@@ -3190,7 +3190,9 @@ ul, ol {
       margin-top: 3rem;
       margin-bottom: 4rem; } }
   .Post__title-area .Hero__title {
-    margin-bottom: 5px; }
+    margin-bottom: 1.75rem;
+    line-height: .8;
+    max-width: 100%; }
 
 .Post__meta {
   font-size: 85%; }
