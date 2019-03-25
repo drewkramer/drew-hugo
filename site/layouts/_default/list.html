@@ -21,6 +21,42 @@
         </div>
     </section>
 
+    {{ else }}
+
+    <section class="Posts reveal">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>{{ .Title }}</h1>
+                    {{ .Content }}
+                    <div class="Space"></div>
+                </div>
+            </div>
+            <div class="row">
+                {{ range where .Data.Pages "Section" "journal" }}
+                    <div class="col-md-4 col-sm-6">
+                        <a href="{{.Permalink}}" class="Work__item">
+                            <div class="Work__image">
+                                <img 
+                                data-src="{{ .Site.Params.cloudinary_url }}{{ .Params.post_thumbnail }}" 
+                                alt="{{.Params.post_thumbnail_alt}}"
+                                class="lazy">
+                            </div>
+                            <h3 class="Work__item-title">
+                                {{.Title}}
+                            </h3>
+                            <span class="Post__meta">
+                                <span class="date">{{ .PublishDate.Format "January 2, 2006" }}
+                            </span>
+                        </a>
+                    </div>
+                {{end}}
+            </div>
+        </div>
+    </section>
+
     {{ end }}
+
+
 
 {{ end }}

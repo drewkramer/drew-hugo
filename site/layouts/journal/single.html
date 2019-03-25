@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+<section class="Post reveal">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="Post__title-area">
+                    <h1 class="Hero__title">{{ .Page.Title }}</h1>
+                    <div class="Post__meta">
+                        <span class="date">{{ .PublishDate.Format "January 2, 2006" }}
+                        <span class="space">&nbsp;&nbsp;–&nbsp;</span>
+                        <span class="tags">
+                            {{ $taxo := "tags" }}
+                            {{ range .Param $taxo }}
+                            {{ $name := . }}
+                            {{ with $.Site.GetPage (printf "/%s/%s" $taxo ($name | urlize)) }}
+                            <a href="{{ .Permalink }}">{{ $name }}</a>
+                            {{ end }}
+                            {{ end }}
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        {{ .Content }}
+    </div>
+</section>
+
+{{if .PrevInSection }}
+<div class="Post-nav reveal">
+    {{ with .PrevInSection }}
+    <span class="Post-nav__label">Previous</span>
+    <a class="Post-nav__link" href="{{.Permalink}}"><span>{{.Title}}</span></a>
+    {{ end }}
+</div>
+{{end}}
+
+{{ end }}

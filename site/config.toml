@@ -24,11 +24,16 @@ enableEmoji = true
   weight = 5
 
 [[menu.main]]
+  name = "Journal"
+  url = "/journal/"
+  weight = 10
+
+[[menu.main]]
   name = "About"
   url = "/about/"
-  weight = 10
+  weight = 15
 
 [[menu.main]]
   name = "Contact"
   url = "/contact/"
-  weight = 15
+  weight = 20

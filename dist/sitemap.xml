@@ -58,6 +58,11 @@
   </url>
   
   <url>
+    <loc>/journal/dailyui-001/</loc>
+    <lastmod>2019-03-11T09:47:55-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/success/</loc>
     <lastmod>2018-09-24T11:29:15-04:00</lastmod>
   </url>
@@ -70,6 +75,11 @@
   <url>
     <loc>/contact/</loc>
     <lastmod>2018-07-08T01:01:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/journal/</loc>
+    <lastmod>2018-07-05T22:28:28-04:00</lastmod>
   </url>
   
   <url>
@@ -90,6 +100,12 @@
   
   <url>
     <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/dailyui/</loc>
+    <lastmod>2019-03-11T09:47:55-04:00</lastmod>
     <priority>0</priority>
   </url>
   
