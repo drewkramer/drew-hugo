@@ -32,23 +32,24 @@
                     <div class="Space"></div>
                 </div>
             </div>
-            <div class="Posts__group">
-                {{ range where .Data.Pages "Section" "posts" }}
-                    <a class="Post-item reveal" href="{{.Permalink}}">
-                        <h3 class="Post-item__title">{{.Title}}</h3>
-                        <span class="Post__meta">
-                            <span class="date">{{ .PublishDate.Format "January 2, 2006" }}
-                            <span class="tags">
-                                {{ $taxo := "tags" }}
-                                {{ range .Param $taxo }}
-                                {{ $name := . }}
-                                {{ with $.Site.GetPage (printf "/%s/%s" $taxo ($name | urlize)) }}
-                                    <span class="tag">{{ $name }}</span>
-                                {{ end }}
-                                {{ end }}
+            <div class="row">
+                {{ range where .Data.Pages "Section" "journal" }}
+                    <div class="col-md-4 col-sm-6">
+                        <a href="{{.Permalink}}" class="Work__item">
+                            <div class="Work__image">
+                                <img 
+                                data-src="{{ .Site.Params.cloudinary_url }}{{ .Params.post_thumbnail }}" 
+                                alt="{{.Params.post_thumbnail_alt}}"
+                                class="lazy">
+                            </div>
+                            <h3 class="Work__item-title">
+                                {{.Title}}
+                            </h3>
+                            <span class="Post__meta">
+                                <span class="date">{{ .PublishDate.Format "January 2, 2006" }}
                             </span>
-                        </span>
-                    </a>
+                        </a>
+                    </div>
                 {{end}}
             </div>
         </div>

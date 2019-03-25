@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
-    <title>Css - Drew Kramer &middot; Front-end Design</title>
+    <title>Thank you, grid-gap - Drew Kramer &middot; Front-end Design</title>
 
     
-    <meta property="og:title" content="Css - Drew Kramer">
+    <meta property="og:title" content="Thank you, grid-gap - Drew Kramer">
     <meta property="og:description" name="description" content="Front-end designer from Central PA passionate about helping people grow their businesses and brands visually. - ">
-    <meta property="og:url" content="/tags/css/">
+    <meta property="og:url" content="/journal/ty-grid-gap/">
     <meta property="og:image" content="https://res.cloudinary.com/drewkramer/image/upload/v1541772454/drewkramer/favicon/apple-touch-icon.png">
     <meta property="og:type" content="website" />
 
@@ -29,7 +29,6 @@
     
     <link rel="stylesheet" href="css/main.css"/>
     
-    <link rel="alternate" type="application/rss+xml" href="/tags/css/index.xml" title="Drew Kramer" />
     
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-67995909-1"></script>
     <script>
@@ -53,7 +52,7 @@
     <div class="Colorbar" ></div>
     <a class="navbar-brand" href="/">Drew Kramer</a>
     
-    <div class="navbar-title">Css</div>
+    <div class="navbar-title">Thank you, grid-gap</div>
     <div class="Mobile-nav-toggle">
         <div>
             <div class="line"></div>
@@ -84,25 +83,36 @@
 
         
 
-    
 
-    <section class="Posts reveal">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h1>Css</h1>
-                    
-                    <div class="Space"></div>
-                </div>
-            </div>
-            <div class="Posts__group">
-                
-            </div>
-        </div>
-    </section>
 
-    
+<h2 id="bye-bye-negative-margins">👋 Bye bye negative margins.</h2>
 
+<p>Take this:</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;grid&#34;</span>&gt;
+  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;grid-item&#34;</span>&gt;
+   &lt;<span style="color:#f92672">h2</span>&gt;{{ .Title }}&lt;/<span style="color:#f92672">h2</span>&gt;
+   &lt;<span style="color:#f92672">p</span>&gt;{{ .Desc }}&lt;/<span style="color:#f92672">p</span>&gt;
+  &lt;/<span style="color:#f92672">div</span>&gt;
+  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;grid-item&#34;</span>&gt;
+   &lt;<span style="color:#f92672">h2</span>&gt;{{ .Title }}&lt;/<span style="color:#f92672">h2</span>&gt;
+   &lt;<span style="color:#f92672">p</span>&gt;{{ .Desc }}&lt;/<span style="color:#f92672">p</span>&gt;
+  &lt;/<span style="color:#f92672">div</span>&gt;
+  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;grid-item&#34;</span>&gt;
+   &lt;<span style="color:#f92672">h2</span>&gt;{{ .Title }}&lt;/<span style="color:#f92672">h2</span>&gt;
+   &lt;<span style="color:#f92672">p</span>&gt;{{ .Desc }}&lt;/<span style="color:#f92672">p</span>&gt;
+  &lt;/<span style="color:#f92672">div</span>&gt;
+&lt;/<span style="color:#f92672">div</span>&gt;</code></pre></div>
+
+<p>Add this:</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">grid</span> {
+  <span style="color:#66d9ef">display</span>: <span style="color:#66d9ef">grid</span>;
+  <span style="color:#66d9ef">grid-template-columns</span>: <span style="color:#a6e22e">repeat</span>(<span style="color:#66d9ef">auto</span><span style="color:#f92672">-</span><span style="color:#66d9ef">fill</span>, <span style="color:#ae81ff">1</span>fr);
+  <span style="color:#66d9ef">grid-gap</span>: <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>;
+}</code></pre></div>
+
+<h2 id="boom">BOOM.</h2>
 
 
 

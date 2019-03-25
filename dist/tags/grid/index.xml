@@ -13,10 +13,10 @@
     
     <item>
       <title>Thank you, grid-gap</title>
-      <link>/posts/ty-grid-gap/</link>
+      <link>/journal/dailyui-001/</link>
       <pubDate>Mon, 11 Mar 2019 09:47:55 -0400</pubDate>
       
-      <guid>/posts/ty-grid-gap/</guid>
+      <guid>/journal/dailyui-001/</guid>
       <description> 👋 Bye bye negative margins. Take this:
 &amp;lt;div class=&amp;#34;grid&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;grid-item&amp;#34;&amp;gt; &amp;lt;h2&amp;gt;{{ .Title }}&amp;lt;/h2&amp;gt; &amp;lt;p&amp;gt;{{ .Desc }}&amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;grid-item&amp;#34;&amp;gt; &amp;lt;h2&amp;gt;{{ .Title }}&amp;lt;/h2&amp;gt; &amp;lt;p&amp;gt;{{ .Desc }}&amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;grid-item&amp;#34;&amp;gt; &amp;lt;h2&amp;gt;{{ .Title }}&amp;lt;/h2&amp;gt; &amp;lt;p&amp;gt;{{ .Desc }}&amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; Add this:
 .grid { display: grid; grid-template-columns: repeat(auto-fill, 1fr); grid-gap: 20px; } BOOM. </description>

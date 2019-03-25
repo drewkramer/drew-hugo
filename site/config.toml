@@ -24,8 +24,8 @@ enableEmoji = true
   weight = 5
 
 [[menu.main]]
-  name = "Posts"
-  url = "/posts/"
+  name = "Journal"
+  url = "/journal/"
   weight = 10
 
 [[menu.main]]
