@@ -13,7 +13,7 @@ background_color: ""
 invert:
 type: "work"
 weight: 99
-draft: false
+draft: true
 ---
 
 {{< image-full >}}
