@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2018-07-08T11:22:30-04:00
-description:
+description: "Drew Kramer is a front-end designer from Los Angeles, CA"
 tags:
 post_thumbnail:
 layout: ""
@@ -11,7 +11,7 @@ draft: false
 {{% about-hero image="https://res.cloudinary.com/drewkramer/image/upload/v1537372347/drewkramer/dk-hero.jpg" image-alt="Drew Kramer" %}}
 
 # Hello, <br>I'm Drew.
-I am a self-taught front-end designer from the Philadelphia/Central Pennsylvania area. After going to school for teaching technology, and a short stint in the public school system, I pursued design, which was a passion of mine since I was younger. Since then I've been priveleged with a variety of design & development opportunities such as marketing agencies, e-commerce, freelance, and a software start-up for 6+ years. I love Jesus, my incredibly beautiful wife Bethany, drums, tennis, well-designed technology, and black coffee.
+I am a front-end designer from Los Angeles, CA – currently at <a href="https://www.servicetitan.com" target="_blank">Service Titan</a>. After going to school for teaching technology, and a short stint in the public school system, I pursued design, which was a passion of mine since I was younger. Since then I've been priveleged with a variety of design & development opportunities such as marketing agencies, e-commerce, freelance, and a software start-up for 6+ years. I love Jesus, my incredibly beautiful wife Bethany, drums, tennis, well-designed technology, and black coffee.
 
 {{% /about-hero %}}
 
@@ -43,9 +43,6 @@ Amazing tool by <a href="https://share.getf.ly/k15s1g" target="_blank">Flywheel<
 **Hugo**
 <br>Incredibly fast static site builder. Easy to learn and get started, especially if you're familiar with how Wordpress works. Currently using and loving the <a href="https://github.com/netlify-templates/victor-hugo" target="_blank">victor-hugo boilerplate</a>.
 
-**Bootstrap**
-<br>CSS framework that makes creating layouts fast and simple. It's also easily expanded upon per each design.
-
 **Sass**
 <br>CSS on steroids. Variables, nesting, mixins, nuff said. I'm also using a Sass plugin called Shevy to create a modular typography scale. Super handy.
 
@@ -57,8 +54,5 @@ Amazing tool by <a href="https://share.getf.ly/k15s1g" target="_blank">Flywheel<
 
 **Netlify**
 <br>Publish static site projects using the JAMstack. It's free, and their platform just straight up rules. Highly recommend.
-
-**Gulp + npm**
-<br>Local server development + build automation. I'm still learning the power, but these tools just make things way easier for development.
 
 {{% /content-block %}}
