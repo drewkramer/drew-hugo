@@ -11,7 +11,11 @@ draft: false
 {{% about-hero image="https://res.cloudinary.com/drewkramer/image/upload/v1537372347/drewkramer/dk-hero.jpg" image-alt="Drew Kramer" %}}
 
 # Hello, <br>I'm Drew.
-I am a front-end designer from Los Angeles, CA – currently at <a href="https://www.servicetitan.com" target="_blank">Service Titan</a>. After going to school for teaching technology, and a short stint in the public school system, I pursued design, which was a passion of mine since I was younger. Since then I've been priveleged with a variety of design & development opportunities such as marketing agencies, e-commerce, freelance, and a software start-up for 6+ years. I love Jesus, my incredibly beautiful wife Bethany, drums, tennis, well-designed technology, and black coffee.
+I am a front-end designer from Los Angeles, CA.
+
+Current: UI/UX Designer at <a href="https://www.servicetitan.com" target="_blank">Service Titan</a>. 
+
+After going to school for teaching technology, and a short stint in the public school system, I pursued design, which was a passion of mine since I was younger. Since then I've been priveleged with a variety of design & development opportunities such as marketing agencies, e-commerce, freelance, and a software start-up for 6+ years. I love Jesus, my incredibly beautiful wife Bethany, drums, tennis, well-designed technology, and black coffee.
 
 {{% /about-hero %}}
 
