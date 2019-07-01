@@ -1,4 +1,4 @@
-//@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css?family=DM+Sans:400,400i,700,700i|DM+Serif+Display&display=swap');
 
 @import '../bootstrap/functions';
 @import '../bootstrap/variables';
@@ -28,10 +28,8 @@
 
 @import 'inverse';
 
-$font-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-//$font-headings: "butlerlight", Georgia, serif;
-$font-headings: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-$font-mono: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;
+$font-default: 'DM Sans', -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+$font-headings: 'DM Serif Display', serif;
 
 $shevy: (
   base-font-size: 18px,
@@ -122,14 +120,12 @@ body {
 
 h1, h2, h3, h4 {
   font-family: $font-headings;
-  font-weight: 700;
+  font-weight: normal;
   color: #1a1a1a;
 }
 
 h1 {
-  letter-spacing: -.02em;
   line-height: 1;
-  font-weight: 700;
 }
 
 h4 {
@@ -441,7 +437,7 @@ figcaption {
     }
   }
   
-  h1, h2, h3, h4, p, ul, ol, {
+  h1, h2, h3, h4, p, ul, ol {
     max-width: 780px;
   }
 

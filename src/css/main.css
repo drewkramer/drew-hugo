@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,400i,700,700i|DM+Serif+Display&display=swap");
 *,
 *::before,
 *::after {
@@ -4062,7 +4063,7 @@ html.sr .reveal {
 body {
   position: relative;
   background: #efefef;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   color: rgba(0, 0, 0, 0.8);
 }
 
@@ -4103,15 +4104,13 @@ body {
 }
 
 h1, h2, h3, h4 {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  font-weight: 700;
+  font-family: "DM Serif Display", serif;
+  font-weight: normal;
   color: #1a1a1a;
 }
 
 h1 {
-  letter-spacing: -0.02em;
   line-height: 1;
-  font-weight: 700;
 }
 
 h4 {
@@ -4120,7 +4119,7 @@ h4 {
 
 h5 {
   font-size: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-weight: bolder;
   margin-bottom: inherit;
   color: #1a1a1a;
@@ -4359,7 +4358,7 @@ figcaption {
 }
 
 .Work__item-title {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   margin: 1rem auto 0;
   text-transform: none;
   font-size: 90%;
