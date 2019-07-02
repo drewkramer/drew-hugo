@@ -12,10 +12,13 @@ draft: false
 
 # Hello, <br>I'm Drew.
 I am a front-end designer from Los Angeles, CA.
+I like designing with code.
 
-Current: UI/UX Designer at <a href="https://www.servicetitan.com" target="_blank">Service Titan</a>. 
+Right now I am a product designer at <a href="https://www.servicetitan.com" target="_blank">Service Titan</a> and help my wife <a href="https://www.instagram.com/bethanyshannonkramer" target="_blank">Bethany</a> run a food blog called <a href="https://asimplepalate.com" target="_blank">A Simple Palate</a>. Before that I was a front-end designer/developer at <a href="https://www.webstaurantstore.com" target="_blank">WebstaurantStore</a> and an agency called <a href="https://www.ydop.com" target="_blank">YDOP</a>. I've been designing and coding for about six years and am self-taught (thank you, internet).
 
-After going to school for teaching technology, and a short stint in the public school system, I pursued design, which was a passion of mine since I was younger. Since then I've been priveleged with a variety of design & development opportunities such as marketing agencies, e-commerce, freelance, and a software start-up for 6+ years. I love Jesus, my incredibly beautiful wife Bethany, drums, tennis, well-designed technology, and black coffee.
+I love Jesus, my wife Bethany, drums, tennis, well-designed technology, and black coffee.
+
+Follow me here: <a href="https://www.instagram.com/drewkramer" target="_blank">Instagram</a> | <a href="https://www.twitter.com/drewkramer" target="_blank">Twitter</a> | <a href="https://www.dribbble.com/drewkramer" target="_blank">Dribbble</a> | <a href="https://www.github.com/drewkramer" target="_blank">Github</a>
 
 {{% /about-hero %}}
 
