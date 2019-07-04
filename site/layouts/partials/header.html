@@ -12,9 +12,12 @@
     </div>
 </nav>
 <div class="Mobile-nav" {{if .Params.colorbar }}style="background: {{ .Params.colorbar }}"{{end}}>
-    <div class="Mobile-nav__inner">
-        {{ range .Site.Menus.main }}
-        <a href="{{ .URL }}">{{ .Name }}</a>
-        {{ end }}
+    <div class="Nav-grid">
+        <div class="Mobile-nav__inner">
+            {{ range .Site.Menus.main }}
+            <a href="{{ .URL }}">{{ .Name }}</a>
+            {{ end }}
+        </div>
+        <div class="Nav-additional"></div>
     </div>
 </div>

@@ -8,8 +8,8 @@
   @media(min-width: 576px) {
     position: fixed;
     left: 80px;
-    top: 0;
-    max-width: 300px;
+    top: 12px;
+    max-width: 100%;
     height: 100%;
     margin-top: 0;
     animation: fadeInLeft .2s;
@@ -88,4 +88,41 @@
     height: 3px;  
     background: rgba(black,.8);
   }
+}
+
+.Nav-grid {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 420px 1fr;
+}
+
+.Nav-additional {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.Mobile-nav__inner > a {
+  font-family: "DM Serif Display", serif;
+  font-size: 56px;
+  font-weight: 400;
+  margin: 0;
+  position: relative;
+}
+
+.Mobile-nav__inner {
+  padding: 3.5rem;
+}
+
+.Mobile-nav__inner > a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: all .2s;
+}
+
+.Mobile-nav__inner > a:hover::before {
+  width: 100%;
 }

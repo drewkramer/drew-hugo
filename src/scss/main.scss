@@ -236,8 +236,9 @@ figcaption {
   &-brand {
     letter-spacing: 0;
     text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.22em;
+    font-weight: 400;
     color: #1a1a1a;
     transition: color .3s;
 
@@ -268,7 +269,8 @@ figcaption {
     text-overflow: ellipsis;
     transform: rotate(90deg);
     text-align: right;
-    font-size: 18px;
+    font-size: 16px;
+    letter-spacing: 0.05em;
 
     @media (min-width: 576px) {
       display: block;
@@ -732,13 +734,13 @@ ul, ol {
 .Post {
   a {
     color: #000;
-    box-shadow: inset 0 -9px 0 rgba(1, 68, 218, 0.15);
+    box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.25);
     text-decoration: none;
     transition: all .2s;
 
     &:hover {
       text-decoration: none;
-      box-shadow: inset 0 -9px 0 rgba(1, 68, 218, 0.30);
+      box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.5);
     }
   }
 }

@@ -3717,8 +3717,8 @@ textarea.form-control {
   .Mobile-nav {
     position: fixed;
     left: 80px;
-    top: 0;
-    max-width: 300px;
+    top: 12px;
+    max-width: 100%;
     height: 100%;
     margin-top: 0;
     animation: fadeInLeft 0.2s;
@@ -3789,6 +3789,43 @@ textarea.form-control {
   width: 100%;
   height: 3px;
   background: rgba(0, 0, 0, 0.8);
+}
+
+.Nav-grid {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 420px 1fr;
+}
+
+.Nav-additional {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.Mobile-nav__inner > a {
+  font-family: "DM Serif Display", serif;
+  font-size: 56px;
+  font-weight: 400;
+  margin: 0;
+  position: relative;
+}
+
+.Mobile-nav__inner {
+  padding: 3.5rem;
+}
+
+.Mobile-nav__inner > a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: all 0.2s;
+}
+
+.Mobile-nav__inner > a:hover::before {
+  width: 100%;
 }
 
 .grid {
@@ -4229,8 +4266,9 @@ figcaption {
 .navbar-brand {
   letter-spacing: 0;
   text-transform: uppercase;
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.22em;
+  font-weight: 400;
   color: #1a1a1a;
   transition: color 0.3s;
 }
@@ -4258,7 +4296,8 @@ figcaption {
   text-overflow: ellipsis;
   transform: rotate(90deg);
   text-align: right;
-  font-size: 18px;
+  font-size: 16px;
+  letter-spacing: 0.05em;
 }
 @media (min-width: 576px) {
   .navbar .navbar-title {
@@ -4690,14 +4729,14 @@ ul, ol {
 .Content-block a,
 .Post a {
   color: #000;
-  box-shadow: inset 0 -9px 0 rgba(1, 68, 218, 0.15);
+  box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.25);
   text-decoration: none;
   transition: all 0.2s;
 }
 .Content-block a:hover,
 .Post a:hover {
   text-decoration: none;
-  box-shadow: inset 0 -9px 0 rgba(1, 68, 218, 0.3);
+  box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.5);
 }
 
 .Responsive-embed {
