@@ -14,7 +14,7 @@ You can also find me on [Instagram](https://www.instagram.com/drewkramer), [Face
 
 #### Or Use the Form
 
-<form method="POST" name="Contact" class="Form Form--contact" netlify-honeypot="bot-field" data-netlify="true">
+<form method="POST" name="contact" class="Form Form--contact" netlify-honeypot="bot-field" data-netlify="true">
   <p class="hidden">
     <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
   </p>
