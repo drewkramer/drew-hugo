@@ -4142,6 +4142,10 @@ pre {
   }
 }
 
+.hidden {
+  display: none;
+}
+
 .Meta {
   font-size: 75%;
   margin-bottom: 1px;

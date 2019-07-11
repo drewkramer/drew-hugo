@@ -14,19 +14,22 @@ You can also find me on [Instagram](https://www.instagram.com/drewkramer), [Face
 
 #### Or Use the Form
 
-<form action="https://formspree.io/drewjkramer@gmail.com" method="POST" class="Form Form--contact">
+<form method="POST" name="Contact" class="Form Form--contact" netlify-honeypot="bot-field" data-netlify="true">
+  <p class="hidden">
+    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+  </p>
   <div class="Form__group">
   <!-- <label class="Label Form__label small">Full Name</label> -->
-  <input type="text" name="name" class="form-control form-control--text" required placeholder="Full name">
+  <input type="text" name="name" class="form-control form-control--text" required placeholder="Full name" aria-label="Name">
   </div>
   <div class="Form__group">
   <!-- <label class="Label Form__label small">Email</label> -->
-  <input type="email" name="_replyto" class="form-control form-control--text" required placeholder="Email">
+  <input type="email" name="_replyto" class="form-control form-control--text" required placeholder="Email" aria-label="Email">
   </div><div class="Form__group">
   <!-- <label class="Label Form__label small">Message</label> -->
-  <textarea class="form-control form-control--textearea" name="message" type="text" required placeholder="Your message"></textarea>
+  <textarea class="form-control form-control--textearea" name="message" type="text" required placeholder="Your message" aria-label="Message"></textarea>
   </div>
   <div class="Form__group">
-  <button type="submit" class="btn btn-secondary btn-submit">Send</button>
+  <button type="submit" class="btn btn-secondary btn-submit" aria-label="Send">Send</button>
   </div>
 </form>
